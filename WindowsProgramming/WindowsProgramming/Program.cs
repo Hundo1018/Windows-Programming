@@ -14,10 +14,12 @@ namespace CourseSelectionSystem
         [STAThread]
         static void Main()
         {
+            Model model = new Model();
+            model.Build ();
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
-            WebCrawler webCrawler = new WebCrawler();
+            Application.Run(new SelectCourseForm());
         }
+
     }
 }

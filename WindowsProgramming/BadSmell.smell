@@ -188,13 +188,13 @@
           <Reviews>
             <Smell>
               <Id>1</Id>
-              <SmellType>Unsuitable naming(名不符實)-_requireElective(elective)</SmellType>
-              <HashCode>UnsuitableNaming.Course._requireElective._requireElective</HashCode>
+              <SmellType>Unsuitable naming(名不符實)-_syllabus(syllabus)</SmellType>
+              <HashCode>UnsuitableNaming.CourseNote._syllabus._syllabus</HashCode>
               <Severity>Red</Severity>
               <Weight>1</Weight>
               <Project>CourseSelectionSystem</Project>
-              <File>Course.cs</File>
-              <Line>41</Line>
+              <File>CourseNote.cs</File>
+              <Line>14</Line>
               <StartLine>0</StartLine>
               <StartCol>0</StartCol>
               <EndLine>0</EndLine>
@@ -204,13 +204,13 @@
             </Smell>
             <Smell>
               <Id>2</Id>
-              <SmellType>Unsuitable naming(名不符實)-_syllabus(syllabus)</SmellType>
-              <HashCode>UnsuitableNaming.Course._syllabus._syllabus</HashCode>
+              <SmellType>Unsuitable naming(名不符實)-_audit(audit)</SmellType>
+              <HashCode>UnsuitableNaming.CourseNote._audit._audit</HashCode>
               <Severity>Red</Severity>
               <Weight>1</Weight>
               <Project>CourseSelectionSystem</Project>
-              <File>Course.cs</File>
-              <Line>50</Line>
+              <File>CourseNote.cs</File>
+              <Line>16</Line>
               <StartLine>0</StartLine>
               <StartCol>0</StartCol>
               <EndLine>0</EndLine>
@@ -221,12 +221,12 @@
             <Smell>
               <Id>3</Id>
               <SmellType>Unsuitable naming(名不符實)-_pratice(pratice)</SmellType>
-              <HashCode>UnsuitableNaming.Course._pratice._pratice</HashCode>
+              <HashCode>UnsuitableNaming.CourseNote._pratice._pratice</HashCode>
               <Severity>Red</Severity>
               <Weight>1</Weight>
               <Project>CourseSelectionSystem</Project>
-              <File>Course.cs</File>
-              <Line>58</Line>
+              <File>CourseNote.cs</File>
+              <Line>17</Line>
               <StartLine>0</StartLine>
               <StartCol>0</StartCol>
               <EndLine>0</EndLine>
@@ -236,556 +236,12 @@
             </Smell>
             <Smell>
               <Id>4</Id>
-              <SmellType>Unsuitable naming(名不符實)-_audit(audit)</SmellType>
-              <HashCode>UnsuitableNaming.Course._audit._audit</HashCode>
-              <Severity>Red</Severity>
-              <Weight>1</Weight>
-              <Project>CourseSelectionSystem</Project>
-              <File>Course.cs</File>
-              <Line>87</Line>
-              <StartLine>0</StartLine>
-              <StartCol>0</StartCol>
-              <EndLine>0</EndLine>
-              <EndCol>0</EndCol>
-              <Comment />
-              <Auto>false</Auto>
-            </Smell>
-            <Smell>
-              <Id>5</Id>
-              <SmellType>Unsuitable naming(名不符實)-pratice(pratice)</SmellType>
-              <HashCode>UnsuitableNaming.Course.SetPratice.pratice</HashCode>
-              <Severity>Red</Severity>
-              <Weight>1</Weight>
-              <Project>CourseSelectionSystem</Project>
-              <File>Course.cs</File>
-              <Line>183</Line>
-              <StartLine>0</StartLine>
-              <StartCol>0</StartCol>
-              <EndLine>0</EndLine>
-              <EndCol>0</EndCol>
-              <Comment />
-              <Auto>false</Auto>
-            </Smell>
-            <Smell>
-              <Id>6</Id>
-              <SmellType>Unsuitable naming(名不符實)-SetPratice(pratice)</SmellType>
-              <HashCode>UnsuitableNaming.Course.SetPratice.SetPratice</HashCode>
-              <Severity>Red</Severity>
-              <Weight>1</Weight>
-              <Project>CourseSelectionSystem</Project>
-              <File>Course.cs</File>
-              <Line>183</Line>
-              <StartLine>0</StartLine>
-              <StartCol>0</StartCol>
-              <EndLine>0</EndLine>
-              <EndCol>0</EndCol>
-              <Comment />
-              <Auto>false</Auto>
-            </Smell>
-            <Smell>
-              <Id>7</Id>
-              <SmellType>Unsuitable naming(名不符實)-SetRequireElective(elective)</SmellType>
-              <HashCode>UnsuitableNaming.Course.SetRequireElective.SetRequireElective</HashCode>
-              <Severity>Red</Severity>
-              <Weight>1</Weight>
-              <Project>CourseSelectionSystem</Project>
-              <File>Course.cs</File>
-              <Line>201</Line>
-              <StartLine>0</StartLine>
-              <StartCol>0</StartCol>
-              <EndLine>0</EndLine>
-              <EndCol>0</EndCol>
-              <Comment />
-              <Auto>false</Auto>
-            </Smell>
-            <Smell>
-              <Id>8</Id>
               <SmellType>Unsuitable naming(名不符實)-syllabus(syllabus)</SmellType>
-              <HashCode>UnsuitableNaming.Course.SetSyllabus.syllabus</HashCode>
-              <Severity>Red</Severity>
-              <Weight>1</Weight>
-              <Project>CourseSelectionSystem</Project>
-              <File>Course.cs</File>
-              <Line>219</Line>
-              <StartLine>0</StartLine>
-              <StartCol>0</StartCol>
-              <EndLine>0</EndLine>
-              <EndCol>0</EndCol>
-              <Comment />
-              <Auto>false</Auto>
-            </Smell>
-            <Smell>
-              <Id>9</Id>
-              <SmellType>Unsuitable naming(名不符實)-SetSyllabus(syllabus)</SmellType>
-              <HashCode>UnsuitableNaming.Course.SetSyllabus.SetSyllabus</HashCode>
-              <Severity>Red</Severity>
-              <Weight>1</Weight>
-              <Project>CourseSelectionSystem</Project>
-              <File>Course.cs</File>
-              <Line>219</Line>
-              <StartLine>0</StartLine>
-              <StartCol>0</StartCol>
-              <EndLine>0</EndLine>
-              <EndCol>0</EndCol>
-              <Comment />
-              <Auto>false</Auto>
-            </Smell>
-            <Smell>
-              <Id>10</Id>
-              <SmellType>Unsuitable naming(名不符實)-audit(audit)</SmellType>
-              <HashCode>UnsuitableNaming.Course.SetAudit.audit</HashCode>
-              <Severity>Red</Severity>
-              <Weight>1</Weight>
-              <Project>CourseSelectionSystem</Project>
-              <File>Course.cs</File>
-              <Line>237</Line>
-              <StartLine>0</StartLine>
-              <StartCol>0</StartCol>
-              <EndLine>0</EndLine>
-              <EndCol>0</EndCol>
-              <Comment />
-              <Auto>false</Auto>
-            </Smell>
-            <Smell>
-              <Id>11</Id>
-              <SmellType>Unsuitable naming(名不符實)-SetAudit(audit)</SmellType>
-              <HashCode>UnsuitableNaming.Course.SetAudit.SetAudit</HashCode>
-              <Severity>Red</Severity>
-              <Weight>1</Weight>
-              <Project>CourseSelectionSystem</Project>
-              <File>Course.cs</File>
-              <Line>237</Line>
-              <StartLine>0</StartLine>
-              <StartCol>0</StartCol>
-              <EndLine>0</EndLine>
-              <EndCol>0</EndCol>
-              <Comment />
-              <Auto>false</Auto>
-            </Smell>
-            <Smell>
-              <Id>12</Id>
-              <SmellType>Unsuitable naming(名不符實)-pratice(pratice)</SmellType>
-              <HashCode>UnsuitableNaming.CourseBuilder.SetPratice.pratice</HashCode>
-              <Severity>Red</Severity>
-              <Weight>1</Weight>
-              <Project>CourseSelectionSystem</Project>
-              <File>CourseBuilder.cs</File>
-              <Line>136</Line>
-              <StartLine>0</StartLine>
-              <StartCol>0</StartCol>
-              <EndLine>0</EndLine>
-              <EndCol>0</EndCol>
-              <Comment />
-              <Auto>false</Auto>
-            </Smell>
-            <Smell>
-              <Id>13</Id>
-              <SmellType>Unsuitable naming(名不符實)-SetPratice(pratice)</SmellType>
-              <HashCode>UnsuitableNaming.CourseBuilder.SetPratice.SetPratice</HashCode>
-              <Severity>Red</Severity>
-              <Weight>1</Weight>
-              <Project>CourseSelectionSystem</Project>
-              <File>CourseBuilder.cs</File>
-              <Line>136</Line>
-              <StartLine>0</StartLine>
-              <StartCol>0</StartCol>
-              <EndLine>0</EndLine>
-              <EndCol>0</EndCol>
-              <Comment />
-              <Auto>false</Auto>
-            </Smell>
-            <Smell>
-              <Id>14</Id>
-              <SmellType>Unsuitable naming(名不符實)-SetRequireElective(elective)</SmellType>
-              <HashCode>UnsuitableNaming.CourseBuilder.SetRequireElective.SetRequireElective</HashCode>
-              <Severity>Red</Severity>
-              <Weight>1</Weight>
-              <Project>CourseSelectionSystem</Project>
-              <File>CourseBuilder.cs</File>
-              <Line>158</Line>
-              <StartLine>0</StartLine>
-              <StartCol>0</StartCol>
-              <EndLine>0</EndLine>
-              <EndCol>0</EndCol>
-              <Comment />
-              <Auto>false</Auto>
-            </Smell>
-            <Smell>
-              <Id>15</Id>
-              <SmellType>Unsuitable naming(名不符實)-syllabus(syllabus)</SmellType>
-              <HashCode>UnsuitableNaming.CourseBuilder.SetSyllabus.syllabus</HashCode>
-              <Severity>Red</Severity>
-              <Weight>1</Weight>
-              <Project>CourseSelectionSystem</Project>
-              <File>CourseBuilder.cs</File>
-              <Line>180</Line>
-              <StartLine>0</StartLine>
-              <StartCol>0</StartCol>
-              <EndLine>0</EndLine>
-              <EndCol>0</EndCol>
-              <Comment />
-              <Auto>false</Auto>
-            </Smell>
-            <Smell>
-              <Id>16</Id>
-              <SmellType>Unsuitable naming(名不符實)-SetSyllabus(syllabus)</SmellType>
-              <HashCode>UnsuitableNaming.CourseBuilder.SetSyllabus.SetSyllabus</HashCode>
-              <Severity>Red</Severity>
-              <Weight>1</Weight>
-              <Project>CourseSelectionSystem</Project>
-              <File>CourseBuilder.cs</File>
-              <Line>180</Line>
-              <StartLine>0</StartLine>
-              <StartCol>0</StartCol>
-              <EndLine>0</EndLine>
-              <EndCol>0</EndCol>
-              <Comment />
-              <Auto>false</Auto>
-            </Smell>
-            <Smell>
-              <Id>17</Id>
-              <SmellType>Unsuitable naming(名不符實)-audit(audit)</SmellType>
-              <HashCode>UnsuitableNaming.CourseBuilder.SetAudit.audit</HashCode>
-              <Severity>Red</Severity>
-              <Weight>1</Weight>
-              <Project>CourseSelectionSystem</Project>
-              <File>CourseBuilder.cs</File>
-              <Line>213</Line>
-              <StartLine>0</StartLine>
-              <StartCol>0</StartCol>
-              <EndLine>0</EndLine>
-              <EndCol>0</EndCol>
-              <Comment />
-              <Auto>false</Auto>
-            </Smell>
-            <Smell>
-              <Id>18</Id>
-              <SmellType>Unsuitable naming(名不符實)-SetAudit(audit)</SmellType>
-              <HashCode>UnsuitableNaming.CourseBuilder.SetAudit.SetAudit</HashCode>
-              <Severity>Red</Severity>
-              <Weight>1</Weight>
-              <Project>CourseSelectionSystem</Project>
-              <File>CourseBuilder.cs</File>
-              <Line>213</Line>
-              <StartLine>0</StartLine>
-              <StartCol>0</StartCol>
-              <EndLine>0</EndLine>
-              <EndCol>0</EndCol>
-              <Comment />
-              <Auto>false</Auto>
-            </Smell>
-            <Smell>
-              <Id>19</Id>
-              <SmellType>Unsuitable naming(名不符實)-_requireElective(elective)</SmellType>
-              <HashCode>UnsuitableNaming.CourseDescription._requireElective._requireElective</HashCode>
-              <Severity>Red</Severity>
-              <Weight>1</Weight>
-              <Project>CourseSelectionSystem</Project>
-              <File>CourseDescription.cs</File>
-              <Line>41</Line>
-              <StartLine>0</StartLine>
-              <StartCol>0</StartCol>
-              <EndLine>0</EndLine>
-              <EndCol>0</EndCol>
-              <Comment />
-              <Auto>false</Auto>
-            </Smell>
-            <Smell>
-              <Id>20</Id>
-              <SmellType>Unsuitable naming(名不符實)-_syllabus(syllabus)</SmellType>
-              <HashCode>UnsuitableNaming.CourseNote._syllabus._syllabus</HashCode>
+              <HashCode>UnsuitableNaming.CourseNote.CourseNote.syllabus</HashCode>
               <Severity>Red</Severity>
               <Weight>1</Weight>
               <Project>CourseSelectionSystem</Project>
               <File>CourseNote.cs</File>
-              <Line>21</Line>
-              <StartLine>0</StartLine>
-              <StartCol>0</StartCol>
-              <EndLine>0</EndLine>
-              <EndCol>0</EndCol>
-              <Comment />
-              <Auto>false</Auto>
-            </Smell>
-            <Smell>
-              <Id>21</Id>
-              <SmellType>Unsuitable naming(名不符實)-_pratice(pratice)</SmellType>
-              <HashCode>UnsuitableNaming.CourseNote._pratice._pratice</HashCode>
-              <Severity>Red</Severity>
-              <Weight>1</Weight>
-              <Project>CourseSelectionSystem</Project>
-              <File>CourseNote.cs</File>
-              <Line>29</Line>
-              <StartLine>0</StartLine>
-              <StartCol>0</StartCol>
-              <EndLine>0</EndLine>
-              <EndCol>0</EndCol>
-              <Comment />
-              <Auto>false</Auto>
-            </Smell>
-            <Smell>
-              <Id>22</Id>
-              <SmellType>Unsuitable naming(名不符實)-SetRequireElective(elective)</SmellType>
-              <HashCode>UnsuitableNaming.ICourseBuilder.SetRequireElective.SetRequireElective</HashCode>
-              <Severity>Red</Severity>
-              <Weight>1</Weight>
-              <Project>CourseSelectionSystem</Project>
-              <File>ICourseBuilder.cs</File>
-              <Line>60</Line>
-              <StartLine>0</StartLine>
-              <StartCol>0</StartCol>
-              <EndLine>0</EndLine>
-              <EndCol>0</EndCol>
-              <Comment />
-              <Auto>false</Auto>
-            </Smell>
-            <Smell>
-              <Id>23</Id>
-              <SmellType>Unsuitable naming(名不符實)-syllabus(syllabus)</SmellType>
-              <HashCode>UnsuitableNaming.ICourseBuilder.SetSyllabus.syllabus</HashCode>
-              <Severity>Red</Severity>
-              <Weight>1</Weight>
-              <Project>CourseSelectionSystem</Project>
-              <File>ICourseBuilder.cs</File>
-              <Line>72</Line>
-              <StartLine>0</StartLine>
-              <StartCol>0</StartCol>
-              <EndLine>0</EndLine>
-              <EndCol>0</EndCol>
-              <Comment />
-              <Auto>false</Auto>
-            </Smell>
-            <Smell>
-              <Id>24</Id>
-              <SmellType>Unsuitable naming(名不符實)-SetSyllabus(syllabus)</SmellType>
-              <HashCode>UnsuitableNaming.ICourseBuilder.SetSyllabus.SetSyllabus</HashCode>
-              <Severity>Red</Severity>
-              <Weight>1</Weight>
-              <Project>CourseSelectionSystem</Project>
-              <File>ICourseBuilder.cs</File>
-              <Line>72</Line>
-              <StartLine>0</StartLine>
-              <StartCol>0</StartCol>
-              <EndLine>0</EndLine>
-              <EndCol>0</EndCol>
-              <Comment />
-              <Auto>false</Auto>
-            </Smell>
-            <Smell>
-              <Id>25</Id>
-              <SmellType>Unsuitable naming(名不符實)-pratice(pratice)</SmellType>
-              <HashCode>UnsuitableNaming.ICourseBuilder.SetPratice.pratice</HashCode>
-              <Severity>Red</Severity>
-              <Weight>1</Weight>
-              <Project>CourseSelectionSystem</Project>
-              <File>ICourseBuilder.cs</File>
-              <Line>84</Line>
-              <StartLine>0</StartLine>
-              <StartCol>0</StartCol>
-              <EndLine>0</EndLine>
-              <EndCol>0</EndCol>
-              <Comment />
-              <Auto>false</Auto>
-            </Smell>
-            <Smell>
-              <Id>26</Id>
-              <SmellType>Unsuitable naming(名不符實)-SetPratice(pratice)</SmellType>
-              <HashCode>UnsuitableNaming.ICourseBuilder.SetPratice.SetPratice</HashCode>
-              <Severity>Red</Severity>
-              <Weight>1</Weight>
-              <Project>CourseSelectionSystem</Project>
-              <File>ICourseBuilder.cs</File>
-              <Line>84</Line>
-              <StartLine>0</StartLine>
-              <StartCol>0</StartCol>
-              <EndLine>0</EndLine>
-              <EndCol>0</EndCol>
-              <Comment />
-              <Auto>false</Auto>
-            </Smell>
-            <Smell>
-              <Id>27</Id>
-              <SmellType>Unsuitable naming(名不符實)-audit(audit)</SmellType>
-              <HashCode>UnsuitableNaming.ICourseBuilder.SetAudit.audit</HashCode>
-              <Severity>Red</Severity>
-              <Weight>1</Weight>
-              <Project>CourseSelectionSystem</Project>
-              <File>ICourseBuilder.cs</File>
-              <Line>127</Line>
-              <StartLine>0</StartLine>
-              <StartCol>0</StartCol>
-              <EndLine>0</EndLine>
-              <EndCol>0</EndCol>
-              <Comment />
-              <Auto>false</Auto>
-            </Smell>
-            <Smell>
-              <Id>28</Id>
-              <SmellType>Unsuitable naming(名不符實)-SetAudit(audit)</SmellType>
-              <HashCode>UnsuitableNaming.ICourseBuilder.SetAudit.SetAudit</HashCode>
-              <Severity>Red</Severity>
-              <Weight>1</Weight>
-              <Project>CourseSelectionSystem</Project>
-              <File>ICourseBuilder.cs</File>
-              <Line>127</Line>
-              <StartLine>0</StartLine>
-              <StartCol>0</StartCol>
-              <EndLine>0</EndLine>
-              <EndCol>0</EndCol>
-              <Comment />
-              <Auto>false</Auto>
-            </Smell>
-            <Smell>
-              <Id>29</Id>
-              <SmellType>Unsuitable naming(名不符實)-HyperLink(hyper)</SmellType>
-              <HashCode>UnsuitableNaming.CourseSelectionSystem.HyperLink.HyperLink</HashCode>
-              <Severity>Red</Severity>
-              <Weight>1</Weight>
-              <Project>CourseSelectionSystem</Project>
-              <File>HyperLink.cs</File>
-              <Line>12</Line>
-              <StartLine>0</StartLine>
-              <StartCol>0</StartCol>
-              <EndLine>0</EndLine>
-              <EndCol>0</EndCol>
-              <Comment />
-              <Auto>false</Auto>
-            </Smell>
-            <Smell>
-              <Id>30</Id>
-              <SmellType>Unresolved warnings(忽視警告)-欄位 'Course._number' 從未使用過</SmellType>
-              <HashCode>WindowsProgramming\CourseSelectionSystem.Course.cs.Unresolved warnings(忽視警告)-欄位 'Course._number' 從未使用過.11</HashCode>
-              <Severity>Red</Severity>
-              <Weight>1</Weight>
-              <Project>WindowsProgramming\CourseSelectionSystem</Project>
-              <File>Course.cs</File>
-              <Line>11</Line>
-              <StartLine>0</StartLine>
-              <StartCol>0</StartCol>
-              <EndLine>0</EndLine>
-              <EndCol>0</EndCol>
-              <Comment />
-              <Auto>false</Auto>
-            </Smell>
-            <Smell>
-              <Id>31</Id>
-              <SmellType>Unresolved warnings(忽視警告)-欄位 'Course._name' 從未使用過</SmellType>
-              <HashCode>WindowsProgramming\CourseSelectionSystem.Course.cs.Unresolved warnings(忽視警告)-欄位 'Course._name' 從未使用過.12</HashCode>
-              <Severity>Red</Severity>
-              <Weight>1</Weight>
-              <Project>WindowsProgramming\CourseSelectionSystem</Project>
-              <File>Course.cs</File>
-              <Line>12</Line>
-              <StartLine>0</StartLine>
-              <StartCol>0</StartCol>
-              <EndLine>0</EndLine>
-              <EndCol>0</EndCol>
-              <Comment />
-              <Auto>false</Auto>
-            </Smell>
-            <Smell>
-              <Id>32</Id>
-              <SmellType>Unresolved warnings(忽視警告)-欄位 'Course._credits' 從未使用過</SmellType>
-              <HashCode>WindowsProgramming\CourseSelectionSystem.Course.cs.Unresolved warnings(忽視警告)-欄位 'Course._credits' 從未使用過.13</HashCode>
-              <Severity>Red</Severity>
-              <Weight>1</Weight>
-              <Project>WindowsProgramming\CourseSelectionSystem</Project>
-              <File>Course.cs</File>
-              <Line>13</Line>
-              <StartLine>0</StartLine>
-              <StartCol>0</StartCol>
-              <EndLine>0</EndLine>
-              <EndCol>0</EndCol>
-              <Comment />
-              <Auto>false</Auto>
-            </Smell>
-            <Smell>
-              <Id>33</Id>
-              <SmellType>Unresolved warnings(忽視警告)-欄位 'Course._hours' 從未使用過</SmellType>
-              <HashCode>WindowsProgramming\CourseSelectionSystem.Course.cs.Unresolved warnings(忽視警告)-欄位 'Course._hours' 從未使用過.14</HashCode>
-              <Severity>Red</Severity>
-              <Weight>1</Weight>
-              <Project>WindowsProgramming\CourseSelectionSystem</Project>
-              <File>Course.cs</File>
-              <Line>14</Line>
-              <StartLine>0</StartLine>
-              <StartCol>0</StartCol>
-              <EndLine>0</EndLine>
-              <EndCol>0</EndCol>
-              <Comment />
-              <Auto>false</Auto>
-            </Smell>
-            <Smell>
-              <Id>34</Id>
-              <SmellType>Unresolved warnings(忽視警告)-欄位 'Course._requireElective' 從未使用過</SmellType>
-              <HashCode>WindowsProgramming\CourseSelectionSystem.Course.cs.Unresolved warnings(忽視警告)-欄位 'Course._requireElective' 從未使用過.15</HashCode>
-              <Severity>Red</Severity>
-              <Weight>1</Weight>
-              <Project>WindowsProgramming\CourseSelectionSystem</Project>
-              <File>Course.cs</File>
-              <Line>15</Line>
-              <StartLine>0</StartLine>
-              <StartCol>0</StartCol>
-              <EndLine>0</EndLine>
-              <EndCol>0</EndCol>
-              <Comment />
-              <Auto>false</Auto>
-            </Smell>
-            <Smell>
-              <Id>35</Id>
-              <SmellType>Unresolved warnings(忽視警告)-欄位 'Course._instructor' 從未使用過</SmellType>
-              <HashCode>WindowsProgramming\CourseSelectionSystem.Course.cs.Unresolved warnings(忽視警告)-欄位 'Course._instructor' 從未使用過.16</HashCode>
-              <Severity>Red</Severity>
-              <Weight>1</Weight>
-              <Project>WindowsProgramming\CourseSelectionSystem</Project>
-              <File>Course.cs</File>
-              <Line>16</Line>
-              <StartLine>0</StartLine>
-              <StartCol>0</StartCol>
-              <EndLine>0</EndLine>
-              <EndCol>0</EndCol>
-              <Comment />
-              <Auto>false</Auto>
-            </Smell>
-            <Smell>
-              <Id>36</Id>
-              <SmellType>Unresolved warnings(忽視警告)-欄位 'Course._date' 從未使用過</SmellType>
-              <HashCode>WindowsProgramming\CourseSelectionSystem.Course.cs.Unresolved warnings(忽視警告)-欄位 'Course._date' 從未使用過.17</HashCode>
-              <Severity>Red</Severity>
-              <Weight>1</Weight>
-              <Project>WindowsProgramming\CourseSelectionSystem</Project>
-              <File>Course.cs</File>
-              <Line>17</Line>
-              <StartLine>0</StartLine>
-              <StartCol>0</StartCol>
-              <EndLine>0</EndLine>
-              <EndCol>0</EndCol>
-              <Comment />
-              <Auto>false</Auto>
-            </Smell>
-            <Smell>
-              <Id>37</Id>
-              <SmellType>Unresolved warnings(忽視警告)-欄位 'Course._classroom' 從未使用過</SmellType>
-              <HashCode>WindowsProgramming\CourseSelectionSystem.Course.cs.Unresolved warnings(忽視警告)-欄位 'Course._classroom' 從未使用過.18</HashCode>
-              <Severity>Red</Severity>
-              <Weight>1</Weight>
-              <Project>WindowsProgramming\CourseSelectionSystem</Project>
-              <File>Course.cs</File>
-              <Line>18</Line>
-              <StartLine>0</StartLine>
-              <StartCol>0</StartCol>
-              <EndLine>0</EndLine>
-              <EndCol>0</EndCol>
-              <Comment />
-              <Auto>false</Auto>
-            </Smell>
-            <Smell>
-              <Id>38</Id>
-              <SmellType>Unresolved warnings(忽視警告)-欄位 'Course._student' 從未使用過</SmellType>
-              <HashCode>WindowsProgramming\CourseSelectionSystem.Course.cs.Unresolved warnings(忽視警告)-欄位 'Course._student' 從未使用過.19</HashCode>
-              <Severity>Red</Severity>
-              <Weight>1</Weight>
-              <Project>WindowsProgramming\CourseSelectionSystem</Project>
-              <File>Course.cs</File>
               <Line>19</Line>
               <StartLine>0</StartLine>
               <StartCol>0</StartCol>
@@ -795,222 +251,14 @@
               <Auto>false</Auto>
             </Smell>
             <Smell>
-              <Id>39</Id>
-              <SmellType>Unresolved warnings(忽視警告)-欄位 'Course._withdraw' 從未使用過</SmellType>
-              <HashCode>WindowsProgramming\CourseSelectionSystem.Course.cs.Unresolved warnings(忽視警告)-欄位 'Course._withdraw' 從未使用過.20</HashCode>
+              <Id>5</Id>
+              <SmellType>Unsuitable naming(名不符實)-audit(audit)</SmellType>
+              <HashCode>UnsuitableNaming.CourseNote.CourseNote.audit</HashCode>
               <Severity>Red</Severity>
               <Weight>1</Weight>
-              <Project>WindowsProgramming\CourseSelectionSystem</Project>
-              <File>Course.cs</File>
-              <Line>20</Line>
-              <StartLine>0</StartLine>
-              <StartCol>0</StartCol>
-              <EndLine>0</EndLine>
-              <EndCol>0</EndCol>
-              <Comment />
-              <Auto>false</Auto>
-            </Smell>
-            <Smell>
-              <Id>40</Id>
-              <SmellType>Unresolved warnings(忽視警告)-欄位 'Course._language' 從未使用過</SmellType>
-              <HashCode>WindowsProgramming\CourseSelectionSystem.Course.cs.Unresolved warnings(忽視警告)-欄位 'Course._language' 從未使用過.21</HashCode>
-              <Severity>Red</Severity>
-              <Weight>1</Weight>
-              <Project>WindowsProgramming\CourseSelectionSystem</Project>
-              <File>Course.cs</File>
-              <Line>21</Line>
-              <StartLine>0</StartLine>
-              <StartCol>0</StartCol>
-              <EndLine>0</EndLine>
-              <EndCol>0</EndCol>
-              <Comment />
-              <Auto>false</Auto>
-            </Smell>
-            <Smell>
-              <Id>41</Id>
-              <SmellType>Unresolved warnings(忽視警告)-欄位 'Course._syllabus' 從未使用過</SmellType>
-              <HashCode>WindowsProgramming\CourseSelectionSystem.Course.cs.Unresolved warnings(忽視警告)-欄位 'Course._syllabus' 從未使用過.22</HashCode>
-              <Severity>Red</Severity>
-              <Weight>1</Weight>
-              <Project>WindowsProgramming\CourseSelectionSystem</Project>
-              <File>Course.cs</File>
-              <Line>22</Line>
-              <StartLine>0</StartLine>
-              <StartCol>0</StartCol>
-              <EndLine>0</EndLine>
-              <EndCol>0</EndCol>
-              <Comment />
-              <Auto>false</Auto>
-            </Smell>
-            <Smell>
-              <Id>42</Id>
-              <SmellType>Unresolved warnings(忽視警告)-欄位 'Course._remarks' 從未使用過</SmellType>
-              <HashCode>WindowsProgramming\CourseSelectionSystem.Course.cs.Unresolved warnings(忽視警告)-欄位 'Course._remarks' 從未使用過.23</HashCode>
-              <Severity>Red</Severity>
-              <Weight>1</Weight>
-              <Project>WindowsProgramming\CourseSelectionSystem</Project>
-              <File>Course.cs</File>
-              <Line>23</Line>
-              <StartLine>0</StartLine>
-              <StartCol>0</StartCol>
-              <EndLine>0</EndLine>
-              <EndCol>0</EndCol>
-              <Comment />
-              <Auto>false</Auto>
-            </Smell>
-            <Smell>
-              <Id>43</Id>
-              <SmellType>Unresolved warnings(忽視警告)-欄位 'Course._pratice' 從未使用過</SmellType>
-              <HashCode>WindowsProgramming\CourseSelectionSystem.Course.cs.Unresolved warnings(忽視警告)-欄位 'Course._pratice' 從未使用過.24</HashCode>
-              <Severity>Red</Severity>
-              <Weight>1</Weight>
-              <Project>WindowsProgramming\CourseSelectionSystem</Project>
-              <File>Course.cs</File>
-              <Line>24</Line>
-              <StartLine>0</StartLine>
-              <StartCol>0</StartCol>
-              <EndLine>0</EndLine>
-              <EndCol>0</EndCol>
-              <Comment />
-              <Auto>false</Auto>
-            </Smell>
-            <Smell>
-              <Id>44</Id>
-              <SmellType>Unresolved warnings(忽視警告)-欄位 'CourseDescription._code' 從未使用過</SmellType>
-              <HashCode>WindowsProgramming\CourseSelectionSystem.CourseDescription.cs.Unresolved warnings(忽視警告)-欄位 'CourseDescription._code' 從未使用過.17</HashCode>
-              <Severity>Red</Severity>
-              <Weight>1</Weight>
-              <Project>WindowsProgramming\CourseSelectionSystem</Project>
-              <File>CourseDescription.cs</File>
-              <Line>17</Line>
-              <StartLine>0</StartLine>
-              <StartCol>0</StartCol>
-              <EndLine>0</EndLine>
-              <EndCol>0</EndCol>
-              <Comment />
-              <Auto>false</Auto>
-            </Smell>
-            <Smell>
-              <Id>45</Id>
-              <SmellType>Unresolved warnings(忽視警告)-欄位 'CourseDescription._number' 從未使用過</SmellType>
-              <HashCode>WindowsProgramming\CourseSelectionSystem.CourseDescription.cs.Unresolved warnings(忽視警告)-欄位 'CourseDescription._number' 從未使用過.21</HashCode>
-              <Severity>Red</Severity>
-              <Weight>1</Weight>
-              <Project>WindowsProgramming\CourseSelectionSystem</Project>
-              <File>CourseDescription.cs</File>
-              <Line>21</Line>
-              <StartLine>0</StartLine>
-              <StartCol>0</StartCol>
-              <EndLine>0</EndLine>
-              <EndCol>0</EndCol>
-              <Comment />
-              <Auto>false</Auto>
-            </Smell>
-            <Smell>
-              <Id>46</Id>
-              <SmellType>Unresolved warnings(忽視警告)-欄位 'CourseDescription._name' 從未使用過</SmellType>
-              <HashCode>WindowsProgramming\CourseSelectionSystem.CourseDescription.cs.Unresolved warnings(忽視警告)-欄位 'CourseDescription._name' 從未使用過.25</HashCode>
-              <Severity>Red</Severity>
-              <Weight>1</Weight>
-              <Project>WindowsProgramming\CourseSelectionSystem</Project>
-              <File>CourseDescription.cs</File>
-              <Line>25</Line>
-              <StartLine>0</StartLine>
-              <StartCol>0</StartCol>
-              <EndLine>0</EndLine>
-              <EndCol>0</EndCol>
-              <Comment />
-              <Auto>false</Auto>
-            </Smell>
-            <Smell>
-              <Id>47</Id>
-              <SmellType>Unresolved warnings(忽視警告)-欄位 'CourseDescription._phase' 從未使用過</SmellType>
-              <HashCode>WindowsProgramming\CourseSelectionSystem.CourseDescription.cs.Unresolved warnings(忽視警告)-欄位 'CourseDescription._phase' 從未使用過.29</HashCode>
-              <Severity>Red</Severity>
-              <Weight>1</Weight>
-              <Project>WindowsProgramming\CourseSelectionSystem</Project>
-              <File>CourseDescription.cs</File>
-              <Line>29</Line>
-              <StartLine>0</StartLine>
-              <StartCol>0</StartCol>
-              <EndLine>0</EndLine>
-              <EndCol>0</EndCol>
-              <Comment />
-              <Auto>false</Auto>
-            </Smell>
-            <Smell>
-              <Id>48</Id>
-              <SmellType>Unresolved warnings(忽視警告)-欄位 'CourseDescription._credits' 從未使用過</SmellType>
-              <HashCode>WindowsProgramming\CourseSelectionSystem.CourseDescription.cs.Unresolved warnings(忽視警告)-欄位 'CourseDescription._credits' 從未使用過.33</HashCode>
-              <Severity>Red</Severity>
-              <Weight>1</Weight>
-              <Project>WindowsProgramming\CourseSelectionSystem</Project>
-              <File>CourseDescription.cs</File>
-              <Line>33</Line>
-              <StartLine>0</StartLine>
-              <StartCol>0</StartCol>
-              <EndLine>0</EndLine>
-              <EndCol>0</EndCol>
-              <Comment />
-              <Auto>false</Auto>
-            </Smell>
-            <Smell>
-              <Id>49</Id>
-              <SmellType>Unresolved warnings(忽視警告)-欄位 'CourseDescription._hours' 從未使用過</SmellType>
-              <HashCode>WindowsProgramming\CourseSelectionSystem.CourseDescription.cs.Unresolved warnings(忽視警告)-欄位 'CourseDescription._hours' 從未使用過.37</HashCode>
-              <Severity>Red</Severity>
-              <Weight>1</Weight>
-              <Project>WindowsProgramming\CourseSelectionSystem</Project>
-              <File>CourseDescription.cs</File>
-              <Line>37</Line>
-              <StartLine>0</StartLine>
-              <StartCol>0</StartCol>
-              <EndLine>0</EndLine>
-              <EndCol>0</EndCol>
-              <Comment />
-              <Auto>false</Auto>
-            </Smell>
-            <Smell>
-              <Id>50</Id>
-              <SmellType>Unresolved warnings(忽視警告)-欄位 'CourseDescription._requireElective' 從未使用過</SmellType>
-              <HashCode>WindowsProgramming\CourseSelectionSystem.CourseDescription.cs.Unresolved warnings(忽視警告)-欄位 'CourseDescription._requireElective' 從未使用過.41</HashCode>
-              <Severity>Red</Severity>
-              <Weight>1</Weight>
-              <Project>WindowsProgramming\CourseSelectionSystem</Project>
-              <File>CourseDescription.cs</File>
-              <Line>41</Line>
-              <StartLine>0</StartLine>
-              <StartCol>0</StartCol>
-              <EndLine>0</EndLine>
-              <EndCol>0</EndCol>
-              <Comment />
-              <Auto>false</Auto>
-            </Smell>
-            <Smell>
-              <Id>51</Id>
-              <SmellType>Unresolved warnings(忽視警告)-已指派欄位 'CourseFlyWeight._store'，但從未使用過其值</SmellType>
-              <HashCode>WindowsProgramming\CourseSelectionSystem.CourseFlyweight.cs.Unresolved warnings(忽視警告)-已指派欄位 'CourseFlyWeight._store'，但從未使用過其值.11</HashCode>
-              <Severity>Red</Severity>
-              <Weight>1</Weight>
-              <Project>WindowsProgramming\CourseSelectionSystem</Project>
-              <File>CourseFlyweight.cs</File>
-              <Line>11</Line>
-              <StartLine>0</StartLine>
-              <StartCol>0</StartCol>
-              <EndLine>0</EndLine>
-              <EndCol>0</EndCol>
-              <Comment />
-              <Auto>false</Auto>
-            </Smell>
-            <Smell>
-              <Id>52</Id>
-              <SmellType>Unresolved warnings(忽視警告)-欄位 'CourseNote._language' 從未使用過</SmellType>
-              <HashCode>WindowsProgramming\CourseSelectionSystem.CourseNote.cs.Unresolved warnings(忽視警告)-欄位 'CourseNote._language' 從未使用過.17</HashCode>
-              <Severity>Red</Severity>
-              <Weight>1</Weight>
-              <Project>WindowsProgramming\CourseSelectionSystem</Project>
+              <Project>CourseSelectionSystem</Project>
               <File>CourseNote.cs</File>
-              <Line>17</Line>
+              <Line>19</Line>
               <StartLine>0</StartLine>
               <StartCol>0</StartCol>
               <EndLine>0</EndLine>
@@ -1019,14 +267,14 @@
               <Auto>false</Auto>
             </Smell>
             <Smell>
-              <Id>53</Id>
-              <SmellType>Unresolved warnings(忽視警告)-欄位 'CourseNote._syllabus' 從未使用過</SmellType>
-              <HashCode>WindowsProgramming\CourseSelectionSystem.CourseNote.cs.Unresolved warnings(忽視警告)-欄位 'CourseNote._syllabus' 從未使用過.21</HashCode>
+              <Id>6</Id>
+              <SmellType>Unsuitable naming(名不符實)-pratice(pratice)</SmellType>
+              <HashCode>UnsuitableNaming.CourseNote.CourseNote.pratice</HashCode>
               <Severity>Red</Severity>
               <Weight>1</Weight>
-              <Project>WindowsProgramming\CourseSelectionSystem</Project>
+              <Project>CourseSelectionSystem</Project>
               <File>CourseNote.cs</File>
-              <Line>21</Line>
+              <Line>19</Line>
               <StartLine>0</StartLine>
               <StartCol>0</StartCol>
               <EndLine>0</EndLine>
@@ -1035,14 +283,14 @@
               <Auto>false</Auto>
             </Smell>
             <Smell>
-              <Id>54</Id>
-              <SmellType>Unresolved warnings(忽視警告)-欄位 'CourseNote._remarks' 從未使用過</SmellType>
-              <HashCode>WindowsProgramming\CourseSelectionSystem.CourseNote.cs.Unresolved warnings(忽視警告)-欄位 'CourseNote._remarks' 從未使用過.25</HashCode>
+              <Id>7</Id>
+              <SmellType>Unsuitable naming(名不符實)-Syllabus(syllabus)</SmellType>
+              <HashCode>UnsuitableNaming.CourseNote.Syllabus.Syllabus</HashCode>
               <Severity>Red</Severity>
               <Weight>1</Weight>
-              <Project>WindowsProgramming\CourseSelectionSystem</Project>
+              <Project>CourseSelectionSystem</Project>
               <File>CourseNote.cs</File>
-              <Line>25</Line>
+              <Line>40</Line>
               <StartLine>0</StartLine>
               <StartCol>0</StartCol>
               <EndLine>0</EndLine>
@@ -1051,14 +299,14 @@
               <Auto>false</Auto>
             </Smell>
             <Smell>
-              <Id>55</Id>
-              <SmellType>Unresolved warnings(忽視警告)-欄位 'CourseNote._pratice' 從未使用過</SmellType>
-              <HashCode>WindowsProgramming\CourseSelectionSystem.CourseNote.cs.Unresolved warnings(忽視警告)-欄位 'CourseNote._pratice' 從未使用過.29</HashCode>
+              <Id>8</Id>
+              <SmellType>Unsuitable naming(名不符實)-Audit(audit)</SmellType>
+              <HashCode>UnsuitableNaming.CourseNote.Audit.Audit</HashCode>
               <Severity>Red</Severity>
               <Weight>1</Weight>
-              <Project>WindowsProgramming\CourseSelectionSystem</Project>
+              <Project>CourseSelectionSystem</Project>
               <File>CourseNote.cs</File>
-              <Line>29</Line>
+              <Line>64</Line>
               <StartLine>0</StartLine>
               <StartCol>0</StartCol>
               <EndLine>0</EndLine>
@@ -1067,62 +315,14 @@
               <Auto>false</Auto>
             </Smell>
             <Smell>
-              <Id>56</Id>
-              <SmellType>Unresolved warnings(忽視警告)-欄位 'CourseNote._description' 從未使用過</SmellType>
-              <HashCode>WindowsProgramming\CourseSelectionSystem.CourseNote.cs.Unresolved warnings(忽視警告)-欄位 'CourseNote._description' 從未使用過.33</HashCode>
+              <Id>9</Id>
+              <SmellType>Unsuitable naming(名不符實)-Pratice(pratice)</SmellType>
+              <HashCode>UnsuitableNaming.CourseNote.Pratice.Pratice</HashCode>
               <Severity>Red</Severity>
               <Weight>1</Weight>
-              <Project>WindowsProgramming\CourseSelectionSystem</Project>
+              <Project>CourseSelectionSystem</Project>
               <File>CourseNote.cs</File>
-              <Line>33</Line>
-              <StartLine>0</StartLine>
-              <StartCol>0</StartCol>
-              <EndLine>0</EndLine>
-              <EndCol>0</EndCol>
-              <Comment />
-              <Auto>false</Auto>
-            </Smell>
-            <Smell>
-              <Id>57</Id>
-              <SmellType>Unresolved warnings(忽視警告)-欄位 'CourseEnvironment._instructor' 從未使用過</SmellType>
-              <HashCode>WindowsProgramming\CourseSelectionSystem.CoursEnvironment.cs.Unresolved warnings(忽視警告)-欄位 'CourseEnvironment._instructor' 從未使用過.11</HashCode>
-              <Severity>Red</Severity>
-              <Weight>1</Weight>
-              <Project>WindowsProgramming\CourseSelectionSystem</Project>
-              <File>CoursEnvironment.cs</File>
-              <Line>11</Line>
-              <StartLine>0</StartLine>
-              <StartCol>0</StartCol>
-              <EndLine>0</EndLine>
-              <EndCol>0</EndCol>
-              <Comment />
-              <Auto>false</Auto>
-            </Smell>
-            <Smell>
-              <Id>58</Id>
-              <SmellType>Unresolved warnings(忽視警告)-欄位 'CourseEnvironment._time' 從未使用過</SmellType>
-              <HashCode>WindowsProgramming\CourseSelectionSystem.CoursEnvironment.cs.Unresolved warnings(忽視警告)-欄位 'CourseEnvironment._time' 從未使用過.12</HashCode>
-              <Severity>Red</Severity>
-              <Weight>1</Weight>
-              <Project>WindowsProgramming\CourseSelectionSystem</Project>
-              <File>CoursEnvironment.cs</File>
-              <Line>12</Line>
-              <StartLine>0</StartLine>
-              <StartCol>0</StartCol>
-              <EndLine>0</EndLine>
-              <EndCol>0</EndCol>
-              <Comment />
-              <Auto>false</Auto>
-            </Smell>
-            <Smell>
-              <Id>59</Id>
-              <SmellType>Unresolved warnings(忽視警告)-欄位 'CourseEnvironment._classroom' 從未使用過</SmellType>
-              <HashCode>WindowsProgramming\CourseSelectionSystem.CoursEnvironment.cs.Unresolved warnings(忽視警告)-欄位 'CourseEnvironment._classroom' 從未使用過.13</HashCode>
-              <Severity>Red</Severity>
-              <Weight>1</Weight>
-              <Project>WindowsProgramming\CourseSelectionSystem</Project>
-              <File>CoursEnvironment.cs</File>
-              <Line>13</Line>
+              <Line>76</Line>
               <StartLine>0</StartLine>
               <StartCol>0</StartCol>
               <EndLine>0</EndLine>
@@ -1141,22 +341,7 @@
                 <AnalysisFileType>Model</AnalysisFileType>
               </AnalysisFile>
               <AnalysisFile>
-                <RelativePath>Course\CourseBuilder.cs</RelativePath>
-                <ProjectName>CourseSelectionSystem</ProjectName>
-                <AnalysisFileType>Model</AnalysisFileType>
-              </AnalysisFile>
-              <AnalysisFile>
                 <RelativePath>Course\CourseDescription.cs</RelativePath>
-                <ProjectName>CourseSelectionSystem</ProjectName>
-                <AnalysisFileType>Model</AnalysisFileType>
-              </AnalysisFile>
-              <AnalysisFile>
-                <RelativePath>Course\CourseFactory.cs</RelativePath>
-                <ProjectName>CourseSelectionSystem</ProjectName>
-                <AnalysisFileType>Model</AnalysisFileType>
-              </AnalysisFile>
-              <AnalysisFile>
-                <RelativePath>Course\CourseFlyweight.cs</RelativePath>
                 <ProjectName>CourseSelectionSystem</ProjectName>
                 <AnalysisFileType>Model</AnalysisFileType>
               </AnalysisFile>
@@ -1166,27 +351,27 @@
                 <AnalysisFileType>Model</AnalysisFileType>
               </AnalysisFile>
               <AnalysisFile>
-                <RelativePath>Course\CoursEnvironment.cs</RelativePath>
+                <RelativePath>Course\CourseScore.cs</RelativePath>
                 <ProjectName>CourseSelectionSystem</ProjectName>
                 <AnalysisFileType>Model</AnalysisFileType>
               </AnalysisFile>
               <AnalysisFile>
-                <RelativePath>Course\ICourseBuilder.cs</RelativePath>
+                <RelativePath>Course\CourseStudent.cs</RelativePath>
                 <ProjectName>CourseSelectionSystem</ProjectName>
                 <AnalysisFileType>Model</AnalysisFileType>
               </AnalysisFile>
               <AnalysisFile>
-                <RelativePath>Form1.cs</RelativePath>
+                <RelativePath>Course\CourseTeacher.cs</RelativePath>
                 <ProjectName>CourseSelectionSystem</ProjectName>
                 <AnalysisFileType>Model</AnalysisFileType>
               </AnalysisFile>
               <AnalysisFile>
-                <RelativePath>Form1.Designer.cs</RelativePath>
+                <RelativePath>Course\CourseTime.cs</RelativePath>
                 <ProjectName>CourseSelectionSystem</ProjectName>
-                <AnalysisFileType>Designer</AnalysisFileType>
+                <AnalysisFileType>Model</AnalysisFileType>
               </AnalysisFile>
               <AnalysisFile>
-                <RelativePath>HyperLink.cs</RelativePath>
+                <RelativePath>Model.cs</RelativePath>
                 <ProjectName>CourseSelectionSystem</ProjectName>
                 <AnalysisFileType>Model</AnalysisFileType>
               </AnalysisFile>
@@ -1211,6 +396,16 @@
                 <AnalysisFileType>Designer</AnalysisFileType>
               </AnalysisFile>
               <AnalysisFile>
+                <RelativePath>SelectCourseForm.cs</RelativePath>
+                <ProjectName>CourseSelectionSystem</ProjectName>
+                <AnalysisFileType>ViewOrController</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>SelectCourseForm.Designer.cs</RelativePath>
+                <ProjectName>CourseSelectionSystem</ProjectName>
+                <AnalysisFileType>Designer</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
                 <RelativePath>Student.cs</RelativePath>
                 <ProjectName>CourseSelectionSystem</ProjectName>
                 <AnalysisFileType>Model</AnalysisFileType>
@@ -1222,7 +417,7 @@
               </AnalysisFile>
             </AnalysisFiles>
           </AnalysisFileManager>
-          <ProductionLoc>1084</ProductionLoc>
+          <ProductionLoc>867</ProductionLoc>
           <TestLoc>0</TestLoc>
         </CodeReview>
       </Data>

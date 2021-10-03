@@ -24,7 +24,7 @@ namespace CourseSelectionSystem
         /// </summary>
         private const string DEFAULT_PATH = "https://aps.ntut.edu.tw/course/tw/Subj.jsp?format=-4&year=110&sem=1&code=2433";
 
-        private HtmlWeb _webClient;
+        private readonly HtmlWeb _webClient;
 
         /// <summary>
         /// 爬網頁
@@ -52,7 +52,7 @@ namespace CourseSelectionSystem
             {
                 nodeTableRow.RemoveAt(0);
             }
-            nodeTableRow.RemoveAt(-1);
+            nodeTableRow.RemoveAt(nodeTableRow.Count() - 1);
             foreach (var node in nodeTableRow)
             {
                 HtmlNodeCollection nodeTableDatas = node.ChildNodes;
@@ -111,8 +111,10 @@ namespace CourseSelectionSystem
         /// <param name="path">目標網頁</param>
         public WebCrawler(string path)
         {
-            _webClient = new HtmlWeb();
-            _webClient.OverrideEncoding = Encoding.Default;
+            _webClient = new HtmlWeb
+            {
+                OverrideEncoding = Encoding.Default
+            };
             _path = path;
         }
 

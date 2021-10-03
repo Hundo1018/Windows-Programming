@@ -11,33 +11,51 @@ namespace CourseSelectionSystem.Course
     /// </summary>
     class CourseDescription
     {
-        /// <summary>
-        /// 課程編碼
-        /// </summary>
-        private uint _code;
+        string _number;
+        string _name;
+
         /// <summary>
         /// 課號
         /// </summary>
-        private uint _number;
+        public string Number
+        {
+            get
+            {
+                return _number;
+            }
+            set
+            {
+                _number = value;
+            }
+        }
+
         /// <summary>
         /// 課程名稱
         /// </summary>
-        private uint _name;
-        /// <summary>
-        /// 階段
-        /// </summary>
-        private uint _phase;
-        /// <summary>
-        /// 總學分數
-        /// </summary>
-        private uint _credits;
-        /// <summary>
-        /// 總時數
-        /// </summary>
-        private float _hours;
-        /// <summary>
-        /// 必修/選修
-        /// </summary>
-        private string _requireElective;
+        public string Name
+        {
+            get
+            {
+                return _name;
+            }
+            set
+            {
+                _name = value;
+            }
+        }
+
+        public CourseDescription(string number, string name)
+        {
+            _number = number;
+            _name = name;
+        }
+        public CourseDescription(List<string> rawData, out List<string> trimmedData)
+        {
+            _number = rawData.First();
+            rawData.RemoveAt(0);
+            _name = rawData.First();
+            rawData.RemoveAt(0);
+            trimmedData = rawData;
+        }
     }
 }
