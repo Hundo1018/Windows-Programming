@@ -9,7 +9,7 @@
 //------------------------------------------------------------------------------
 
 
-namespace _108590007.Properties
+namespace WindowsProgramming.Properties
 {
     /// <summary>
     ///   用於查詢當地語系化字串等的強類型資源類別
@@ -43,7 +43,7 @@ namespace _108590007.Properties
             {
                 if ((resourceMan == null))
                 {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("_108590007.Properties.Resources", typeof(Resources).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("WindowsProgramming.Properties.Resources", typeof(Resources).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;

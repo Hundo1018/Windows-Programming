@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // 組件的一般資訊是由下列的屬性集控制。
 // 變更這些屬性的值即可修改組件的相關
 // 資訊。
-[assembly: AssemblyTitle("_108590007")]
+[assembly: AssemblyTitle("WindowsProgramming")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("_108590007")]
+[assembly: AssemblyProduct("WindowsProgramming")]
 [assembly: AssemblyCopyright("Copyright ©  2021")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // 下列 GUID 為專案公開 (Expose) 至 COM 時所要使用的 typelib ID
-[assembly: Guid("adbfaebd-4180-4f16-93b7-2725a388e87f")]
+[assembly: Guid("30e4607b-8c39-4a2e-9c6c-1ee00dc75d6f")]
 
 // 組件的版本資訊由下列四個值所組成: 
 //

@@ -1,5 +1,5 @@
 ﻿
-namespace _108590007
+namespace WindowsProgramming
 {
     partial class Form1
     {
