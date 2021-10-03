@@ -1,5 +1,5 @@
 ﻿
-namespace WindowsProgramming
+namespace CourseSelectionSystem
 {
     partial class Form1
     {
@@ -29,13 +29,35 @@ namespace WindowsProgramming
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this._dataGridView1 = new System.Windows.Forms.DataGridView();
+            ((System.ComponentModel.ISupportInitialize)(this._dataGridView1)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // _dataGridView1
+            // 
+            this._dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this._dataGridView1.Location = new System.Drawing.Point(12, 12);
+            this._dataGridView1.Name = "_dataGridView1";
+            this._dataGridView1.RowTemplate.Height = 24;
+            this._dataGridView1.Size = new System.Drawing.Size(776, 248);
+            this._dataGridView1.TabIndex = 0;
+            // 
+            // Form1
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this._dataGridView1);
+            this.Name = "Form1";
             this.Text = "Form1";
+            ((System.ComponentModel.ISupportInitialize)(this._dataGridView1)).EndInit();
+            this.ResumeLayout(false);
+
         }
 
         #endregion
+
+        private System.Windows.Forms.DataGridView _dataGridView1;
     }
 }
 

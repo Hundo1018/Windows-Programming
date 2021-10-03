@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace WindowsProgramming
+namespace CourseSelectionSystem
 {
     static class Program
     {
@@ -17,6 +17,7 @@ namespace WindowsProgramming
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
+            WebCrawler webCrawler = new WebCrawler();
         }
     }
 }
