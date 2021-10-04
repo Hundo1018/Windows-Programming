@@ -14,17 +14,17 @@ namespace CourseSelectionSystem.Course
         private string _syllabus;
         private string _remarks;
         private string _audit;
-        private string _pratice;
+        private string _experiment;
 
-        public CourseNote(string syllabus, string remarks, string audit, string pratice)
+        public CourseNote(string syllabus, string remarks, string audit, string experiment)
         {
             _syllabus = syllabus;
             _remarks = remarks;
             _audit = audit;
-            _pratice = pratice;
+            _experiment = experiment;
         }
 
-        public CourseNote(List<string> rawData, out List<string> trimmedData)
+        public CourseNote(List<string> rawData)
         {
             _syllabus = rawData.First();
             rawData.RemoveAt(0);
@@ -32,9 +32,8 @@ namespace CourseSelectionSystem.Course
             rawData.RemoveAt(0);
             _audit = rawData.First();
             rawData.RemoveAt(0);
-            _pratice = rawData.First();
+            _experiment = rawData.First();
             rawData.RemoveAt(0);
-            trimmedData = rawData;
         }
 
         public string Syllabus
@@ -73,15 +72,15 @@ namespace CourseSelectionSystem.Course
             }
         }
 
-        public string Pratice
+        public string Experiment
         {
             get 
             {
-                return _pratice;
+                return _experiment;
             }
             set
             {
-                _pratice = value;
+                _experiment = value;
             }
         }
     }

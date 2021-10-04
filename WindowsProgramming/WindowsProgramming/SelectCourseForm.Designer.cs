@@ -42,14 +42,16 @@ namespace CourseSelectionSystem
             this._dataGridView1.Size = new System.Drawing.Size(776, 248);
             this._dataGridView1.TabIndex = 0;
             // 
-            // Form1
+            // SelectCourseForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSize = true;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this._dataGridView1);
-            this.Name = "Form1";
+            this.Name = "SelectCourseForm";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.SelectCourseForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this._dataGridView1)).EndInit();
             this.ResumeLayout(false);
 

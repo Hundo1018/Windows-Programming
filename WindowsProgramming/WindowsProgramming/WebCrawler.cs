@@ -23,7 +23,6 @@ namespace CourseSelectionSystem
         /// 預設網址 for 第一次作業
         /// </summary>
         private const string DEFAULT_PATH = "https://aps.ntut.edu.tw/course/tw/Subj.jsp?format=-4&year=110&sem=1&code=2433";
-
         private readonly HtmlWeb _webClient;
 
         /// <summary>
@@ -47,12 +46,14 @@ namespace CourseSelectionSystem
             List<List<string>> cleanData = new List<List<string>>();
             const string BODY_AND_TABLE = "//body/table";//砍頭
             HtmlNodeCollection nodeTableRow = document.DocumentNode.SelectSingleNode(BODY_AND_TABLE).ChildNodes;
-            const int DELETE_COUNT = 3;//第四個開始是課程
+            const int DELETE_COUNT = 2;//第四個開始是課程，第三個開始是Header
             for (int i = 0; i < DELETE_COUNT; i++)
             {
                 nodeTableRow.RemoveAt(0);
             }
             nodeTableRow.RemoveAt(nodeTableRow.Count() - 1);
+            cleanData.Add(GetDataFromNodeCollection(nodeTableRow[0].ChildNodes));
+            nodeTableRow.RemoveAt(0);
             foreach (var node in nodeTableRow)
             {
                 HtmlNodeCollection nodeTableDatas = node.ChildNodes;

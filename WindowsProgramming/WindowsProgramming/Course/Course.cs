@@ -20,13 +20,65 @@ namespace CourseSelectionSystem.Course
 
         public Course(List<string> data)
         {
-            CourseDescription = new CourseDescription(data, out data);
+            CourseDescription = new CourseDescription(data, out data);//這裡或許可以改用IEnumerable來做
             CourseScore = new CourseScore(data, out data);
             CourseTeacher = new CourseTeacher(data, out data);
             CourseTime = new CourseTime(data, out data);
             CourseStudent = new CourseStudent(data, out data);
-            CourseNote = new CourseNote(data, out data);
-            data.Add("");
+            CourseNote = new CourseNote(data);
+        }
+
+        /// <summary>
+        /// 取得一個Row的資訊
+        /// </summary>
+        /// <returns></returns>
+        public List<object> GetRow()
+        {
+            List<object> data = new List<object>();
+            data.AddRange(GetTopHalfRow());
+            data.AddRange(GetBottomHalfRow());
+            return data;
+        }
+
+        /// <summary>
+        /// 取得上半部的資料Row
+        /// </summary>
+        /// <returns></returns>
+        private List<object> GetTopHalfRow()
+        {
+            List<object> data = new List<object>();
+            data.AddRange(new List<object>()
+            {
+                _courseDescription.Number, _courseDescription.Name, _courseScore.Phase, _courseScore.Credits
+            });
+            data.AddRange(new List<object>()
+            {
+                _courseScore.Hours.ToString(), _courseScore.Require, _courseTeacher.Instructor
+            });
+            data.AddRange(_courseTime.GetWeek());
+            return data;
+        }
+
+        /// <summary>
+        /// 取得下半部的資料
+        /// </summary>
+        /// <returns></returns>
+        private List<object> GetBottomHalfRow()
+        {
+            List<object> data = new List<object>();
+            data.AddRange(new List<object>()
+            {
+                _courseTeacher.Classroom, _courseStudent.StudentNo, _courseStudent.WithDrop, _courseTeacher.TeachingAssistant
+            });
+            data.AddRange(new List<object>()
+            {
+                _courseTeacher.Language, _courseNote.Syllabus, _courseNote.Remarks, _courseNote.Audit
+            });
+            data.AddRange(new List<object>()
+            {
+                _courseNote.Experiment
+            });
+            return data;
         }
 
         public Course()

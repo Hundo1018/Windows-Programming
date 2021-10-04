@@ -14,11 +14,10 @@ namespace CourseSelectionSystem
         [STAThread]
         static void Main()
         {
-            Model model = new Model();
-            model.Build ();
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new SelectCourseForm());
+            Model model = new Model();
+            Application.Run(new SelectCourseForm(model));//依賴注入
         }
 
     }

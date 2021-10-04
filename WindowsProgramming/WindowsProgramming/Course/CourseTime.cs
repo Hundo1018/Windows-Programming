@@ -21,6 +21,19 @@ namespace CourseSelectionSystem.Course
             _week[week].Add(time);
         }
 
+        /// <summary>
+        /// 目前未分割時間所以直接取得位置0的一整周資訊
+        /// </summary>
+        public List<string> GetWeek()
+        {
+            List<string> data = new List<string>();
+            foreach (var item in _week.Values)
+            {
+                data.Add(item[0]);
+            }
+            return data;
+        }
+
         public CourseTime()
         {
             _week = new Dictionary<uint, List<string>>();
