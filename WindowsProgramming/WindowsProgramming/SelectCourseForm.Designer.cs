@@ -30,17 +30,38 @@ namespace CourseSelectionSystem
         private void InitializeComponent()
         {
             this._dataGridView1 = new System.Windows.Forms.DataGridView();
+            this._buttonSend = new System.Windows.Forms.Button();
+            this._buttonCheck = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this._dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // _dataGridView1
             // 
+            this._dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
             this._dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this._dataGridView1.Location = new System.Drawing.Point(12, 12);
             this._dataGridView1.Name = "_dataGridView1";
             this._dataGridView1.RowTemplate.Height = 24;
-            this._dataGridView1.Size = new System.Drawing.Size(776, 248);
+            this._dataGridView1.Size = new System.Drawing.Size(776, 344);
             this._dataGridView1.TabIndex = 0;
+            // 
+            // _buttonSend
+            // 
+            this._buttonSend.Location = new System.Drawing.Point(376, 362);
+            this._buttonSend.Name = "_buttonSend";
+            this._buttonSend.Size = new System.Drawing.Size(203, 76);
+            this._buttonSend.TabIndex = 1;
+            this._buttonSend.Text = "確認送出";
+            this._buttonSend.UseVisualStyleBackColor = true;
+            // 
+            // _buttonCheck
+            // 
+            this._buttonCheck.Location = new System.Drawing.Point(585, 362);
+            this._buttonCheck.Name = "_buttonCheck";
+            this._buttonCheck.Size = new System.Drawing.Size(203, 76);
+            this._buttonCheck.TabIndex = 2;
+            this._buttonCheck.Text = "查看選課結果";
+            this._buttonCheck.UseVisualStyleBackColor = true;
             // 
             // SelectCourseForm
             // 
@@ -48,10 +69,12 @@ namespace CourseSelectionSystem
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this._buttonCheck);
+            this.Controls.Add(this._buttonSend);
             this.Controls.Add(this._dataGridView1);
             this.Name = "SelectCourseForm";
-            this.Text = "Form1";
-            this.Load += new System.EventHandler(this.SelectCourseForm_Load);
+            this.Text = "選課";
+            this.Load += new System.EventHandler(this.LoadSelectCourseForm);
             ((System.ComponentModel.ISupportInitialize)(this._dataGridView1)).EndInit();
             this.ResumeLayout(false);
 
@@ -60,6 +83,8 @@ namespace CourseSelectionSystem
         #endregion
 
         private System.Windows.Forms.DataGridView _dataGridView1;
+        private System.Windows.Forms.Button _buttonSend;
+        private System.Windows.Forms.Button _buttonCheck;
     }
 }
 

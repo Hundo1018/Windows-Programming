@@ -188,86 +188,22 @@
           <Reviews>
             <Smell>
               <Id>1</Id>
-              <SmellType>ICS(空白與空行-9)</SmellType>
-              <HashCode>SpacingAndNewLine9</HashCode>
-              <Severity>Red</Severity>
-              <Weight>1</Weight>
-              <Project>CourseSelectionSystem</Project>
-              <File>Model.cs</File>
-              <Line>62</Line>
-              <StartLine>0</StartLine>
-              <StartCol>0</StartCol>
-              <EndLine>0</EndLine>
-              <EndCol>0</EndCol>
-              <Comment>ICS(空白與空行-9) 陣列初始化的左大括號後面，右大括號前面</Comment>
-              <Auto>false</Auto>
-            </Smell>
-            <Smell>
-              <Id>2</Id>
-              <SmellType>ICS(空白與空行-17)</SmellType>
-              <HashCode>SpacingAndNewLine17.SelectCourseForm.cs.3.        }.        /// &lt;summary&gt;</HashCode>
-              <Severity>Red</Severity>
-              <Weight>1</Weight>
-              <Project>CourseSelectionSystem</Project>
-              <File>SelectCourseForm.cs</File>
-              <Line>21</Line>
-              <StartLine>0</StartLine>
-              <StartCol>0</StartCol>
-              <EndLine>0</EndLine>
-              <EndCol>0</EndCol>
-              <Comment>ICS(空白與空行-17) 一次不加多個空行(若發生時，則指定在多個空行的第一行即可)</Comment>
-              <Auto>false</Auto>
-            </Smell>
-            <Smell>
-              <Id>3</Id>
-              <SmellType>ICS(函式-1)</SmellType>
-              <HashCode>Method1.SelectCourseForm.SelectCourseForm_Load</HashCode>
-              <Severity>Red</Severity>
-              <Weight>1</Weight>
-              <Project>CourseSelectionSystem</Project>
-              <File>SelectCourseForm.cs</File>
-              <Line>29</Line>
-              <StartLine>0</StartLine>
-              <StartCol>0</StartCol>
-              <EndLine>0</EndLine>
-              <EndCol>0</EndCol>
-              <Comment>ICS(函式-1) 函式命名一律大寫開始，若由多個單字組成，每個單字的第一個字母大寫，其餘小寫。不以底線區隔單字</Comment>
-              <Auto>false</Auto>
-            </Smell>
-            <Smell>
-              <Id>4</Id>
-              <SmellType>Long method(過長函式)</SmellType>
-              <HashCode>LongMethod.WebCrawler.CleansingCourseData.21HtmlDocument document;</HashCode>
-              <Severity>Warning</Severity>
-              <Weight>21</Weight>
-              <Project>CourseSelectionSystem</Project>
-              <File>WebCrawler.cs</File>
-              <Line>44</Line>
-              <StartLine>0</StartLine>
-              <StartCol>0</StartCol>
-              <EndLine>0</EndLine>
-              <EndCol>0</EndCol>
-              <Comment />
-              <Auto>false</Auto>
-            </Smell>
-            <Smell>
-              <Id>5</Id>
               <SmellType>Feature Envy(依戀情節)</SmellType>
-              <HashCode>35 目前物件 CourseSelectionSystem.SelectCourseForm，使用物件的方法或屬性次數：1次，Envy到對象物件 CourseSelectionSystem.Model，使用物件方法或屬性次數：3次，使用到的方法或屬性為以下：CourseSelectionSystem.Model.GetHeaders() 以及 CourseSelectionSystem.Model.GetHeaders() 以及 CourseSelectionSystem.Model.GetHeaders()</HashCode>
+              <HashCode>33 目前物件 CourseSelectionSystem.SelectCourseForm，使用物件的方法或屬性次數：1次，Envy到對象物件 CourseSelectionSystem.Model，使用物件方法或屬性次數：3次，使用到的方法或屬性為以下：CourseSelectionSystem.Model.GetHeaders() 以及 CourseSelectionSystem.Model.GetHeaders() 以及 CourseSelectionSystem.Model.GetHeaders()</HashCode>
               <Severity>Red</Severity>
               <Weight>1</Weight>
               <Project>CourseSelectionSystem</Project>
               <File>D:\桌面\NTUT\3\WindowsProgramming\Code\WindowsProgramming\WindowsProgramming\SelectCourseForm.cs</File>
-              <Line>35</Line>
-              <StartLine>34</StartLine>
+              <Line>33</Line>
+              <StartLine>32</StartLine>
               <StartCol>0</StartCol>
-              <EndLine>35</EndLine>
+              <EndLine>33</EndLine>
               <EndCol>0</EndCol>
               <Comment>目前物件 CourseSelectionSystem.SelectCourseForm，使用物件的方法或屬性次數：1次，Envy到對象物件 CourseSelectionSystem.Model，使用物件方法或屬性次數：3次，使用到的方法或屬性為以下：CourseSelectionSystem.Model.GetHeaders() 以及 CourseSelectionSystem.Model.GetHeaders() 以及 CourseSelectionSystem.Model.GetHeaders()</Comment>
               <Auto>false</Auto>
             </Smell>
             <Smell>
-              <Id>6</Id>
+              <Id>2</Id>
               <SmellType>Feature Envy(依戀情節)</SmellType>
               <HashCode>53 目前物件 CourseSelectionSystem.Course.Course，使用物件的方法或屬性次數：0次，Envy到對象物件 CourseSelectionSystem.Course.CourseDescription，使用物件方法或屬性次數：2次，使用到的方法或屬性為以下：CourseSelectionSystem.Course.CourseDescription.Number 以及 CourseSelectionSystem.Course.CourseDescription.Name</HashCode>
               <Severity>Warning</Severity>
@@ -283,7 +219,7 @@
               <Auto>false</Auto>
             </Smell>
             <Smell>
-              <Id>7</Id>
+              <Id>3</Id>
               <SmellType>Feature Envy(依戀情節)</SmellType>
               <HashCode>53 目前物件 CourseSelectionSystem.Course.Course，使用物件的方法或屬性次數：0次，Envy到對象物件 CourseSelectionSystem.Course.CourseScore，使用物件方法或屬性次數：2次，使用到的方法或屬性為以下：CourseSelectionSystem.Course.CourseScore.Phase 以及 CourseSelectionSystem.Course.CourseScore.Credits</HashCode>
               <Severity>Warning</Severity>
@@ -299,7 +235,7 @@
               <Auto>false</Auto>
             </Smell>
             <Smell>
-              <Id>8</Id>
+              <Id>4</Id>
               <SmellType>Feature Envy(依戀情節)</SmellType>
               <HashCode>57 目前物件 CourseSelectionSystem.Course.Course，使用物件的方法或屬性次數：0次，Envy到對象物件 CourseSelectionSystem.Course.CourseScore，使用物件方法或屬性次數：2次，使用到的方法或屬性為以下：CourseSelectionSystem.Course.CourseScore.Hours 以及 CourseSelectionSystem.Course.CourseScore.Require</HashCode>
               <Severity>Warning</Severity>
@@ -315,7 +251,7 @@
               <Auto>false</Auto>
             </Smell>
             <Smell>
-              <Id>9</Id>
+              <Id>5</Id>
               <SmellType>Feature Envy(依戀情節)</SmellType>
               <HashCode>72 目前物件 CourseSelectionSystem.Course.Course，使用物件的方法或屬性次數：0次，Envy到對象物件 CourseSelectionSystem.Course.CourseTeacher，使用物件方法或屬性次數：2次，使用到的方法或屬性為以下：CourseSelectionSystem.Course.CourseTeacher.Classroom 以及 CourseSelectionSystem.Course.CourseTeacher.TeachingAssistant</HashCode>
               <Severity>Warning</Severity>
@@ -331,7 +267,7 @@
               <Auto>false</Auto>
             </Smell>
             <Smell>
-              <Id>10</Id>
+              <Id>6</Id>
               <SmellType>Feature Envy(依戀情節)</SmellType>
               <HashCode>72 目前物件 CourseSelectionSystem.Course.Course，使用物件的方法或屬性次數：0次，Envy到對象物件 CourseSelectionSystem.Course.CourseStudent，使用物件方法或屬性次數：2次，使用到的方法或屬性為以下：CourseSelectionSystem.Course.CourseStudent.StudentNo 以及 CourseSelectionSystem.Course.CourseStudent.WithDrop</HashCode>
               <Severity>Warning</Severity>
@@ -347,7 +283,7 @@
               <Auto>false</Auto>
             </Smell>
             <Smell>
-              <Id>11</Id>
+              <Id>7</Id>
               <SmellType>Feature Envy(依戀情節)</SmellType>
               <HashCode>76 目前物件 CourseSelectionSystem.Course.Course，使用物件的方法或屬性次數：0次，Envy到對象物件 CourseSelectionSystem.Course.CourseNote，使用物件方法或屬性次數：3次，使用到的方法或屬性為以下：CourseSelectionSystem.Course.CourseNote.Syllabus 以及 CourseSelectionSystem.Course.CourseNote.Remarks 以及 CourseSelectionSystem.Course.CourseNote.Audit</HashCode>
               <Severity>Red</Severity>
@@ -449,7 +385,7 @@
               </AnalysisFile>
             </AnalysisFiles>
           </AnalysisFileManager>
-          <ProductionLoc>991</ProductionLoc>
+          <ProductionLoc>1013</ProductionLoc>
           <TestLoc>0</TestLoc>
         </CodeReview>
       </Data>
