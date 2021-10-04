@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CourseSelectionSystem.Course
 {
-    class CourseTeacher
+    class CourseTeacher : ICourse
     {
         private string _instructor;
         private string _teachingAssistant;
@@ -67,6 +67,10 @@ namespace CourseSelectionSystem.Course
             _teachingAssistant = teachingAssistant;
             _classroom = classroom;
             _language = language;
+            SetData(CourseIndex.Instructor, _instructor);
+            SetData(CourseIndex.TeachingAssistant, _teachingAssistant);
+            SetData(CourseIndex.Classroom, _classroom);
+            SetData(CourseIndex.Language, _language);
         }
 
         public CourseTeacher(List<string> rawData, out List<string> trimmedData)

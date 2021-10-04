@@ -49,6 +49,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Course\CheckEventArgs.cs" />
     <Compile Include="Course\Course.cs" />
     <Compile Include="Course\CourseDescription.cs" />
     <Compile Include="Course\CourseNote.cs" />
@@ -56,6 +57,7 @@
     <Compile Include="Course\CourseStudent.cs" />
     <Compile Include="Course\CourseTeacher.cs" />
     <Compile Include="Course\CourseTime.cs" />
+    <Compile Include="Course\ICourse.cs" />
     <Compile Include="SelectCourseForm.cs">
       <SubType>Form</SubType>
     </Compile>

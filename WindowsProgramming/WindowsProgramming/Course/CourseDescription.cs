@@ -9,7 +9,7 @@ namespace CourseSelectionSystem.Course
     /// <summary>
     /// 課程描述
     /// </summary>
-    class CourseDescription
+    class CourseDescription : ICourse
     {
         string _number;
         string _name;
@@ -48,6 +48,8 @@ namespace CourseSelectionSystem.Course
         {
             _number = number;
             _name = name;
+            SetData(CourseIndex.Number, _number);
+            SetData(CourseIndex.Name, _name);
         }
         public CourseDescription(List<string> rawData, out List<string> trimmedData)
         {

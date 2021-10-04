@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CourseSelectionSystem.Course
 {
-    class CourseScore
+    class CourseScore : ICourse
     {
         private uint _phase;
         private float _credits;
@@ -26,6 +26,10 @@ namespace CourseSelectionSystem.Course
             _credits = float.Parse(credits);
             _hours = uint.Parse(hours);
             _require = require;
+            SetData(CourseIndex.Phase, _phase);
+            SetData(CourseIndex.Credits, _credits);
+            SetData(CourseIndex.Hours, _hours);
+            SetData(CourseIndex.Require, _require);
         }
 
         public CourseScore(List<string> rawData , out List<string> trimmedData)

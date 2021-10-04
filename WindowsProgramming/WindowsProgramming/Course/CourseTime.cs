@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace CourseSelectionSystem.Course
 {
-    class CourseTime
+    class CourseTime : ICourse
     {
         private readonly Dictionary<uint, List<string>> _week;
-
+        private const int WEEK = 7;
         /// <summary>
         /// 指定加入授課時間
         /// </summary>
@@ -19,6 +19,7 @@ namespace CourseSelectionSystem.Course
         {
             _week.Add(week, new List<string>());
             _week[week].Add(time);
+            SetData((CourseIndex)(week + WEEK), time);
         }
 
         /// <summary>
@@ -41,7 +42,7 @@ namespace CourseSelectionSystem.Course
         public CourseTime(List<string> rawData, out List<string> trimmedData)
         {
             _week = new Dictionary<uint, List<string>>();
-            const int WEEK = 7;
+            
             for (uint i = 0; i < WEEK; i++)
             {
                 Add(i, rawData.First());

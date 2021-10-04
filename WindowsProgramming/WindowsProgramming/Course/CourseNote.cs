@@ -9,7 +9,7 @@ namespace CourseSelectionSystem.Course
     /// <summary>
     /// 課程備註資訊
     /// </summary>
-    class CourseNote
+    class CourseNote : ICourse
     {
         private string _syllabus;
         private string _remarks;
@@ -22,6 +22,10 @@ namespace CourseSelectionSystem.Course
             _remarks = remarks;
             _audit = audit;
             _experiment = experiment;
+            SetData(CourseIndex.Syllabus, _syllabus);
+            SetData(CourseIndex.Remarks, _remarks);
+            SetData(CourseIndex.Audit, _audit);
+            SetData(CourseIndex.Experiment, _experiment);
         }
 
         public CourseNote(List<string> rawData)

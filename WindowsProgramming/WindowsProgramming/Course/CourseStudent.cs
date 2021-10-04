@@ -9,7 +9,7 @@ namespace CourseSelectionSystem.Course
     /// <summary>
     /// 學生資訊
     /// </summary>
-    class CourseStudent
+    class CourseStudent : ICourse
     {
         private uint _studentNo;
         private uint _withDrop;
@@ -49,6 +49,8 @@ namespace CourseSelectionSystem.Course
         {
             _studentNo = studentNo;
             _withDrop = withDrop;
+            SetData(CourseIndex.StudentNo, _studentNo);
+            SetData(CourseIndex.WithDrop, _withDrop);
         }
         public CourseStudent(List<string> rawData, out List<string> trimmedData)
         {
