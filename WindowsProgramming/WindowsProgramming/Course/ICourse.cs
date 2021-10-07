@@ -63,9 +63,40 @@ namespace CourseSelectionSystem.Course
             }
         }
 
+        /// <summary>
+        /// 結合其他資訊
+        /// </summary>
+        /// <param name="course"></param>
+        /// <returns></returns>
+        public List<object> Combine(params object[] course)
+        {
+            return course.ToList();
+        }
+
+        /// <summary>
+        /// 結合其他資訊
+        /// </summary>
+        /// <param name="list"></param>
+        /// <param name="course"></param>
+        /// <returns></returns>
+        public List<object> Combine(List<object> list, params object[] course)
+        {
+            list.AddRange(course.ToList());
+            return list;
+        }
+
         public ICourse()
         {
             _datas = new Dictionary<CourseIndex, object>();
+        }
+
+        /// <summary>
+        /// test
+        /// </summary>
+        /// <returns></returns>
+        public ICourse GetList()
+        {
+            return this;
         }
     }
 }

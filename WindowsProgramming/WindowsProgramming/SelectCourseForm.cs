@@ -29,11 +29,11 @@ namespace CourseSelectionSystem
         private void LoadSelectCourseForm(object sender, EventArgs e)
         {
             _dataGridView1.Columns.Add(new DataGridViewCheckBoxColumn());
-            _dataGridView1.Columns[0].Name = _model.GetHeaders()[0];
+            List<string> headers = _model.GetHeaders();
+            _dataGridView1.Columns[0].Name = headers.ElementAt(0);
             for (int i = 1; i < _model.GetHeaders().Count; i++)
             {
-                string header = _model.GetHeaders()[i];
-                _dataGridView1.Columns.Add(header, header);
+                _dataGridView1.Columns.Add(headers.ElementAt(i), headers.ElementAt(i));
             }
             foreach (var row in _model.GetTable())
             {

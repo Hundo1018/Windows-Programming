@@ -89,9 +89,11 @@ namespace CourseSelectionSystem.Course
         /// <returns></returns>
         public List<object> GetRow()
         {
-            List<object> data = new List<object>();
-            data.AddRange(GetBaseRow());
-            data.AddRange(GetExtraRow());
+            List<object> data = Combine(_courseDescription.Number, _courseDescription.Name, _courseScore.Phase, _courseScore.Credits);
+            data = Combine(data, _courseScore.Hours.ToString(), _courseScore.Require, _courseTeacher.Instructor);
+            data.AddRange(_courseTime.GetWeek());
+            data = Combine(data, _courseTeacher.Classroom, _courseStudent.StudentNo, _courseStudent.WithDrop, _courseTeacher.TeachingAssistant);
+            data = Combine(data, _courseTeacher.Language, _courseNote.Syllabus, _courseNote.Remarks, _courseNote.Audit, _courseNote.Experiment);
             return data;
         }
 
@@ -105,47 +107,6 @@ namespace CourseSelectionSystem.Course
             {
                 SetData((CourseIndex)index, value);
             }
-        }
-
-        /// <summary>
-        /// 取得上半部的資料Row
-        /// </summary>
-        /// <returns></returns>
-        private List<object> GetBaseRow()
-        {
-            List<object> data = new List<object>();
-            data.AddRange(new List<object>()
-            {
-                _courseDescription.Number, _courseDescription.Name, _courseScore.Phase, _courseScore.Credits
-            });
-            data.AddRange(new List<object>()
-            {
-                _courseScore.Hours.ToString(), _courseScore.Require, _courseTeacher.Instructor
-            });
-            data.AddRange(_courseTime.GetWeek());
-            return data;
-        }
-
-        /// <summary>
-        /// 取得下半部的資料
-        /// </summary>
-        /// <returns></returns>
-        private List<object> GetExtraRow()
-        {
-            List<object> data = new List<object>();
-            data.AddRange(new List<object>()
-            {
-                _courseTeacher.Classroom, _courseStudent.StudentNo, _courseStudent.WithDrop, _courseTeacher.TeachingAssistant
-            });
-            data.AddRange(new List<object>()
-            {
-                _courseTeacher.Language, _courseNote.Syllabus, _courseNote.Remarks, _courseNote.Audit
-            });
-            data.AddRange(new List<object>()
-            {
-                _courseNote.Experiment
-            });
-            return data;
         }
 
         public Course()

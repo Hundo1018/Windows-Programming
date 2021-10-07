@@ -9,7 +9,7 @@ namespace CourseSelectionSystem
     public class Model
     {
         public delegate void CheckOneEventHandler(object sender, Course.CheckEventArguments eventArgs);
-        public event CheckOneEventHandler CheckOneEvent;
+        private CheckOneEventHandler _checkOneEvent;
         private List<Course.Course> _courses;
         private List<string> _headers;
         private List<bool> _checkList;
@@ -52,6 +52,16 @@ namespace CourseSelectionSystem
         }
 
         /// <summary>
+        /// 取得Column的標題
+        /// </summary>
+        /// <param name="index"></param>
+        /// <returns></returns>
+        public string GetHeader(int index)
+        {
+            return _headers[index];
+        }
+
+        /// <summary>
         /// 改變選課
         /// </summary>
         /// <param name="isChecked"></param>
@@ -76,7 +86,7 @@ namespace CourseSelectionSystem
             {
                 isChecked |= (bool)list[i];
             }
-            CheckOneEvent.Invoke(this, new Course.CheckEventArguments(isChecked));
+            _checkOneEvent.Invoke(this, new Course.CheckEventArguments(isChecked));
         }
 
         /// <summary>
@@ -85,7 +95,7 @@ namespace CourseSelectionSystem
         /// <param name="checkAtleastOneEventHandler"></param>
         public void SetCheckEvent(CheckOneEventHandler checkOneEventHandler)
         {
-            CheckOneEvent += checkOneEventHandler;
+            _checkOneEvent += checkOneEventHandler;
             CheckAtLeastOne(_checkList);
         }
 

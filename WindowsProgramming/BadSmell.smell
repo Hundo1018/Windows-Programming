@@ -185,164 +185,9 @@
     <div class="data">
       <Data id="ReviewPalData">
         <CodeReview xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-          <Reviews>
-            <Smell>
-              <Id>1</Id>
-              <SmellType>ICS(Delegate與Event-3)</SmellType>
-              <HashCode>DelegateAndEvent3.Model.CheckOneEvent</HashCode>
-              <Severity>Red</Severity>
-              <Weight>1</Weight>
-              <Project>CourseSelectionSystem</Project>
-              <File>Model.cs</File>
-              <Line>12</Line>
-              <StartLine>0</StartLine>
-              <StartCol>0</StartCol>
-              <EndLine>0</EndLine>
-              <EndCol>0</EndCol>
-              <Comment>ICS(Delegate 與 Event-3) event 的變數命名如一般 class 中的成員變數</Comment>
-              <Auto>false</Auto>
-            </Smell>
-            <Smell>
-              <Id>2</Id>
-              <SmellType>Feature Envy(依戀情節)</SmellType>
-              <HashCode>34 目前物件 CourseSelectionSystem.SelectCourseForm，使用物件的方法或屬性次數：0次，Envy到對象物件 CourseSelectionSystem.Model，使用物件方法或屬性次數：2次，使用到的方法或屬性為以下：CourseSelectionSystem.Model.GetHeaders() 以及 CourseSelectionSystem.Model.GetHeaders()</HashCode>
-              <Severity>Warning</Severity>
-              <Weight>1</Weight>
-              <Project>CourseSelectionSystem</Project>
-              <File>D:\桌面\NTUT\3\WindowsProgramming\Code\WindowsProgramming\WindowsProgramming\SelectCourseForm.cs</File>
-              <Line>34</Line>
-              <StartLine>34</StartLine>
-              <StartCol>23</StartCol>
-              <EndLine>34</EndLine>
-              <EndCol>54</EndCol>
-              <Comment>目前物件 CourseSelectionSystem.SelectCourseForm，使用物件的方法或屬性次數：0次，Envy到對象物件 CourseSelectionSystem.Model，使用物件方法或屬性次數：2次，使用到的方法或屬性為以下：CourseSelectionSystem.Model.GetHeaders() 以及 CourseSelectionSystem.Model.GetHeaders()</Comment>
-              <Auto>false</Auto>
-            </Smell>
-            <Smell>
-              <Id>3</Id>
-              <SmellType>Feature Envy(依戀情節)</SmellType>
-              <HashCode>36 目前物件 CourseSelectionSystem.SelectCourseForm，使用物件的方法或屬性次數：1次，Envy到對象物件 CourseSelectionSystem.Model，使用物件方法或屬性次數：3次，使用到的方法或屬性為以下：CourseSelectionSystem.Model.GetHeaders() 以及 CourseSelectionSystem.Model.GetHeaders() 以及 CourseSelectionSystem.Model.GetHeaders()</HashCode>
-              <Severity>Red</Severity>
-              <Weight>1</Weight>
-              <Project>CourseSelectionSystem</Project>
-              <File>D:\桌面\NTUT\3\WindowsProgramming\Code\WindowsProgramming\WindowsProgramming\SelectCourseForm.cs</File>
-              <Line>36</Line>
-              <StartLine>35</StartLine>
-              <StartCol>0</StartCol>
-              <EndLine>36</EndLine>
-              <EndCol>0</EndCol>
-              <Comment>目前物件 CourseSelectionSystem.SelectCourseForm，使用物件的方法或屬性次數：1次，Envy到對象物件 CourseSelectionSystem.Model，使用物件方法或屬性次數：3次，使用到的方法或屬性為以下：CourseSelectionSystem.Model.GetHeaders() 以及 CourseSelectionSystem.Model.GetHeaders() 以及 CourseSelectionSystem.Model.GetHeaders()</Comment>
-              <Auto>false</Auto>
-            </Smell>
-            <Smell>
-              <Id>4</Id>
-              <SmellType>Feature Envy(依戀情節)</SmellType>
-              <HashCode>120 目前物件 CourseSelectionSystem.Course.Course，使用物件的方法或屬性次數：0次，Envy到對象物件 CourseSelectionSystem.Course.CourseDescription，使用物件方法或屬性次數：2次，使用到的方法或屬性為以下：CourseSelectionSystem.Course.CourseDescription.Number 以及 CourseSelectionSystem.Course.CourseDescription.Name</HashCode>
-              <Severity>Warning</Severity>
-              <Weight>1</Weight>
-              <Project>CourseSelectionSystem</Project>
-              <File>D:\桌面\NTUT\3\WindowsProgramming\Code\WindowsProgramming\WindowsProgramming\Course\Course.cs</File>
-              <Line>120</Line>
-              <StartLine>116</StartLine>
-              <StartCol>0</StartCol>
-              <EndLine>120</EndLine>
-              <EndCol>0</EndCol>
-              <Comment>目前物件 CourseSelectionSystem.Course.Course，使用物件的方法或屬性次數：0次，Envy到對象物件 CourseSelectionSystem.Course.CourseDescription，使用物件方法或屬性次數：2次，使用到的方法或屬性為以下：CourseSelectionSystem.Course.CourseDescription.Number 以及 CourseSelectionSystem.Course.CourseDescription.Name</Comment>
-              <Auto>false</Auto>
-            </Smell>
-            <Smell>
-              <Id>5</Id>
-              <SmellType>Feature Envy(依戀情節)</SmellType>
-              <HashCode>120 目前物件 CourseSelectionSystem.Course.Course，使用物件的方法或屬性次數：0次，Envy到對象物件 CourseSelectionSystem.Course.CourseScore，使用物件方法或屬性次數：2次，使用到的方法或屬性為以下：CourseSelectionSystem.Course.CourseScore.Phase 以及 CourseSelectionSystem.Course.CourseScore.Credits</HashCode>
-              <Severity>Warning</Severity>
-              <Weight>1</Weight>
-              <Project>CourseSelectionSystem</Project>
-              <File>D:\桌面\NTUT\3\WindowsProgramming\Code\WindowsProgramming\WindowsProgramming\Course\Course.cs</File>
-              <Line>120</Line>
-              <StartLine>116</StartLine>
-              <StartCol>0</StartCol>
-              <EndLine>120</EndLine>
-              <EndCol>0</EndCol>
-              <Comment>目前物件 CourseSelectionSystem.Course.Course，使用物件的方法或屬性次數：0次，Envy到對象物件 CourseSelectionSystem.Course.CourseScore，使用物件方法或屬性次數：2次，使用到的方法或屬性為以下：CourseSelectionSystem.Course.CourseScore.Phase 以及 CourseSelectionSystem.Course.CourseScore.Credits</Comment>
-              <Auto>false</Auto>
-            </Smell>
-            <Smell>
-              <Id>6</Id>
-              <SmellType>Feature Envy(依戀情節)</SmellType>
-              <HashCode>124 目前物件 CourseSelectionSystem.Course.Course，使用物件的方法或屬性次數：0次，Envy到對象物件 CourseSelectionSystem.Course.CourseScore，使用物件方法或屬性次數：2次，使用到的方法或屬性為以下：CourseSelectionSystem.Course.CourseScore.Hours 以及 CourseSelectionSystem.Course.CourseScore.Require</HashCode>
-              <Severity>Warning</Severity>
-              <Weight>1</Weight>
-              <Project>CourseSelectionSystem</Project>
-              <File>D:\桌面\NTUT\3\WindowsProgramming\Code\WindowsProgramming\WindowsProgramming\Course\Course.cs</File>
-              <Line>124</Line>
-              <StartLine>120</StartLine>
-              <StartCol>0</StartCol>
-              <EndLine>124</EndLine>
-              <EndCol>0</EndCol>
-              <Comment>目前物件 CourseSelectionSystem.Course.Course，使用物件的方法或屬性次數：0次，Envy到對象物件 CourseSelectionSystem.Course.CourseScore，使用物件方法或屬性次數：2次，使用到的方法或屬性為以下：CourseSelectionSystem.Course.CourseScore.Hours 以及 CourseSelectionSystem.Course.CourseScore.Require</Comment>
-              <Auto>false</Auto>
-            </Smell>
-            <Smell>
-              <Id>7</Id>
-              <SmellType>Feature Envy(依戀情節)</SmellType>
-              <HashCode>139 目前物件 CourseSelectionSystem.Course.Course，使用物件的方法或屬性次數：0次，Envy到對象物件 CourseSelectionSystem.Course.CourseTeacher，使用物件方法或屬性次數：2次，使用到的方法或屬性為以下：CourseSelectionSystem.Course.CourseTeacher.Classroom 以及 CourseSelectionSystem.Course.CourseTeacher.TeachingAssistant</HashCode>
-              <Severity>Warning</Severity>
-              <Weight>1</Weight>
-              <Project>CourseSelectionSystem</Project>
-              <File>D:\桌面\NTUT\3\WindowsProgramming\Code\WindowsProgramming\WindowsProgramming\Course\Course.cs</File>
-              <Line>139</Line>
-              <StartLine>135</StartLine>
-              <StartCol>0</StartCol>
-              <EndLine>139</EndLine>
-              <EndCol>0</EndCol>
-              <Comment>目前物件 CourseSelectionSystem.Course.Course，使用物件的方法或屬性次數：0次，Envy到對象物件 CourseSelectionSystem.Course.CourseTeacher，使用物件方法或屬性次數：2次，使用到的方法或屬性為以下：CourseSelectionSystem.Course.CourseTeacher.Classroom 以及 CourseSelectionSystem.Course.CourseTeacher.TeachingAssistant</Comment>
-              <Auto>false</Auto>
-            </Smell>
-            <Smell>
-              <Id>8</Id>
-              <SmellType>Feature Envy(依戀情節)</SmellType>
-              <HashCode>139 目前物件 CourseSelectionSystem.Course.Course，使用物件的方法或屬性次數：0次，Envy到對象物件 CourseSelectionSystem.Course.CourseStudent，使用物件方法或屬性次數：2次，使用到的方法或屬性為以下：CourseSelectionSystem.Course.CourseStudent.StudentNo 以及 CourseSelectionSystem.Course.CourseStudent.WithDrop</HashCode>
-              <Severity>Warning</Severity>
-              <Weight>1</Weight>
-              <Project>CourseSelectionSystem</Project>
-              <File>D:\桌面\NTUT\3\WindowsProgramming\Code\WindowsProgramming\WindowsProgramming\Course\Course.cs</File>
-              <Line>139</Line>
-              <StartLine>135</StartLine>
-              <StartCol>0</StartCol>
-              <EndLine>139</EndLine>
-              <EndCol>0</EndCol>
-              <Comment>目前物件 CourseSelectionSystem.Course.Course，使用物件的方法或屬性次數：0次，Envy到對象物件 CourseSelectionSystem.Course.CourseStudent，使用物件方法或屬性次數：2次，使用到的方法或屬性為以下：CourseSelectionSystem.Course.CourseStudent.StudentNo 以及 CourseSelectionSystem.Course.CourseStudent.WithDrop</Comment>
-              <Auto>false</Auto>
-            </Smell>
-            <Smell>
-              <Id>9</Id>
-              <SmellType>Feature Envy(依戀情節)</SmellType>
-              <HashCode>143 目前物件 CourseSelectionSystem.Course.Course，使用物件的方法或屬性次數：0次，Envy到對象物件 CourseSelectionSystem.Course.CourseNote，使用物件方法或屬性次數：3次，使用到的方法或屬性為以下：CourseSelectionSystem.Course.CourseNote.Syllabus 以及 CourseSelectionSystem.Course.CourseNote.Remarks 以及 CourseSelectionSystem.Course.CourseNote.Audit</HashCode>
-              <Severity>Red</Severity>
-              <Weight>1</Weight>
-              <Project>CourseSelectionSystem</Project>
-              <File>D:\桌面\NTUT\3\WindowsProgramming\Code\WindowsProgramming\WindowsProgramming\Course\Course.cs</File>
-              <Line>143</Line>
-              <StartLine>139</StartLine>
-              <StartCol>0</StartCol>
-              <EndLine>143</EndLine>
-              <EndCol>0</EndCol>
-              <Comment>目前物件 CourseSelectionSystem.Course.Course，使用物件的方法或屬性次數：0次，Envy到對象物件 CourseSelectionSystem.Course.CourseNote，使用物件方法或屬性次數：3次，使用到的方法或屬性為以下：CourseSelectionSystem.Course.CourseNote.Syllabus 以及 CourseSelectionSystem.Course.CourseNote.Remarks 以及 CourseSelectionSystem.Course.CourseNote.Audit</Comment>
-              <Auto>false</Auto>
-            </Smell>
-          </Reviews>
+          <Reviews />
           <HashCodeIgnoreList />
-          <HashCodeRequestIgnoreList>
-            <string>34 目前物件 CourseSelectionSystem.SelectCourseForm，使用物件的方法或屬性次數：0次，Envy到對象物件 CourseSelectionSystem.Model，使用物件方法或屬性次數：2次，使用到的方法或屬性為以下：CourseSelectionSystem.Model.GetHeaders() 以及 CourseSelectionSystem.Model.GetHeaders()</string>
-            <string>36 目前物件 CourseSelectionSystem.SelectCourseForm，使用物件的方法或屬性次數：1次，Envy到對象物件 CourseSelectionSystem.Model，使用物件方法或屬性次數：3次，使用到的方法或屬性為以下：CourseSelectionSystem.Model.GetHeaders() 以及 CourseSelectionSystem.Model.GetHeaders() 以及 CourseSelectionSystem.Model.GetHeaders()</string>
-            <string>120 目前物件 CourseSelectionSystem.Course.Course，使用物件的方法或屬性次數：0次，Envy到對象物件 CourseSelectionSystem.Course.CourseDescription，使用物件方法或屬性次數：2次，使用到的方法或屬性為以下：CourseSelectionSystem.Course.CourseDescription.Number 以及 CourseSelectionSystem.Course.CourseDescription.Name</string>
-            <string>120 目前物件 CourseSelectionSystem.Course.Course，使用物件的方法或屬性次數：0次，Envy到對象物件 CourseSelectionSystem.Course.CourseScore，使用物件方法或屬性次數：2次，使用到的方法或屬性為以下：CourseSelectionSystem.Course.CourseScore.Phase 以及 CourseSelectionSystem.Course.CourseScore.Credits</string>
-            <string>124 目前物件 CourseSelectionSystem.Course.Course，使用物件的方法或屬性次數：0次，Envy到對象物件 CourseSelectionSystem.Course.CourseScore，使用物件方法或屬性次數：2次，使用到的方法或屬性為以下：CourseSelectionSystem.Course.CourseScore.Hours 以及 CourseSelectionSystem.Course.CourseScore.Require</string>
-            <string>139 目前物件 CourseSelectionSystem.Course.Course，使用物件的方法或屬性次數：0次，Envy到對象物件 CourseSelectionSystem.Course.CourseTeacher，使用物件方法或屬性次數：2次，使用到的方法或屬性為以下：CourseSelectionSystem.Course.CourseTeacher.Classroom 以及 CourseSelectionSystem.Course.CourseTeacher.TeachingAssistant</string>
-            <string>139 目前物件 CourseSelectionSystem.Course.Course，使用物件的方法或屬性次數：0次，Envy到對象物件 CourseSelectionSystem.Course.CourseStudent，使用物件方法或屬性次數：2次，使用到的方法或屬性為以下：CourseSelectionSystem.Course.CourseStudent.StudentNo 以及 CourseSelectionSystem.Course.CourseStudent.WithDrop</string>
-            <string>143 目前物件 CourseSelectionSystem.Course.Course，使用物件的方法或屬性次數：0次，Envy到對象物件 CourseSelectionSystem.Course.CourseNote，使用物件方法或屬性次數：3次，使用到的方法或屬性為以下：CourseSelectionSystem.Course.CourseNote.Syllabus 以及 CourseSelectionSystem.Course.CourseNote.Remarks 以及 CourseSelectionSystem.Course.CourseNote.Audit</string>
-            <string>DelegateAndEvent3.Model.CheckOneEvent</string>
-          </HashCodeRequestIgnoreList>
+          <HashCodeRequestIgnoreList />
           <AnalysisFileManager>
             <AnalysisFiles>
               <AnalysisFile>
@@ -437,7 +282,7 @@
               </AnalysisFile>
             </AnalysisFiles>
           </AnalysisFileManager>
-          <ProductionLoc>1262</ProductionLoc>
+          <ProductionLoc>1264</ProductionLoc>
           <TestLoc>0</TestLoc>
         </CodeReview>
       </Data>
