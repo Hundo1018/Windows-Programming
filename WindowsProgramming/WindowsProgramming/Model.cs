@@ -67,11 +67,11 @@ namespace CourseSelectionSystem
         /// <param name="isChecked"></param>
         /// <param name="rowIndex"></param>
         /// <param name="columnIndex"></param>
-        public void Checked(int rowIndex, int columnIndex)
+        public void Checked(int rowIndex, int columnIndex, object isChecked)
         {
             if (columnIndex == 0)
             {
-                _checkList[rowIndex] = !_checkList[rowIndex];
+                _checkList[rowIndex] = (bool)isChecked;
                 CheckAtLeastOne(_checkList);
             }
         }
