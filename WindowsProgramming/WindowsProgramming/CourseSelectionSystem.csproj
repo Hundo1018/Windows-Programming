@@ -49,6 +49,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CourseSelectionResultForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CourseSelectionResultForm.Designer.cs">
+      <DependentUpon>CourseSelectionResultForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Course\CheckEventArgs.cs" />
     <Compile Include="Course\Course.cs" />
     <Compile Include="Course\CourseDescription.cs" />

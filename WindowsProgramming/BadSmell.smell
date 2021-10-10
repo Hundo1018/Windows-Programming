@@ -236,6 +236,16 @@
                 <AnalysisFileType>Model</AnalysisFileType>
               </AnalysisFile>
               <AnalysisFile>
+                <RelativePath>CourseSelectionResultForm.cs</RelativePath>
+                <ProjectName>CourseSelectionSystem</ProjectName>
+                <AnalysisFileType>ViewOrController</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>CourseSelectionResultForm.Designer.cs</RelativePath>
+                <ProjectName>CourseSelectionSystem</ProjectName>
+                <AnalysisFileType>Designer</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
                 <RelativePath>Model.cs</RelativePath>
                 <ProjectName>CourseSelectionSystem</ProjectName>
                 <AnalysisFileType>Model</AnalysisFileType>
@@ -282,7 +292,7 @@
               </AnalysisFile>
             </AnalysisFiles>
           </AnalysisFileManager>
-          <ProductionLoc>1264</ProductionLoc>
+          <ProductionLoc>1337</ProductionLoc>
           <TestLoc>0</TestLoc>
         </CodeReview>
       </Data>
