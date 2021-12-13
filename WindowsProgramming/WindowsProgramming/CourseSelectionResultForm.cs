@@ -12,6 +12,14 @@ namespace CourseSelectionSystem
 {
     public partial class CourseSelectionResultForm : Form
     {
+<<<<<<< Updated upstream
+=======
+        private CourseSelectionResultFormPresentationModel _courseSelectionResultFormPresentationModel;
+        public CourseSelectionResultForm(CourseSelectionResultFormPresentationModel model)
+        {
+            _courseSelectionResultFormPresentationModel = model;
+        }
+>>>>>>> Stashed changes
         public CourseSelectionResultForm()
         {
             InitializeComponent();
